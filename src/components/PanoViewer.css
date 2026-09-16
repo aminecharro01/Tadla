@@ -1,0 +1,53 @@
+.pano-viewer {
+  margin: 1.25rem 0 0;
+}
+
+.pano-viewer--compact {
+  margin: 0;
+}
+
+.pano-viewer--compact .pano-viewer__canvas {
+  height: min(48vh, 380px);
+  border-radius: 0;
+  border: none;
+}
+
+.pano-viewer__head h2 {
+  margin: 0 0 0.25rem;
+  font-size: 1.1rem;
+}
+
+.pano-viewer__head p {
+  margin: 0 0 0.65rem;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+
+.pano-viewer__canvas {
+  width: 100%;
+  height: min(52vh, 420px);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  background: #1a1a1a;
+}
+
+.pano-viewer__loading,
+.pano-viewer__error {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+}
+
+.pano-viewer--compact .pano-viewer__loading,
+.pano-viewer--compact .pano-viewer__error {
+  margin: 0.75rem;
+}
+
+.pano-viewer__error {
+  color: #9b2c2c;
+}
+
+/* Pannellum hotspot tooltip readability */
+.pnlm-hotspot-base.pnlm-info {
+  background: #003580;
+}

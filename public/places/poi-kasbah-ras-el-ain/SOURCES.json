@@ -1,0 +1,19 @@
+{
+  "poiId": "poi-kasbah-ras-el-ain",
+  "note": "Wikimedia Commons HQ photos for famous places (free licence).",
+  "downloadedAt": "2026-07-24T11:18:31.346Z",
+  "files": [
+    {
+      "file": "1.jpg",
+      "commons": "File:Kasbah Ras El Ain.JPG",
+      "bytes": 1038516,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Kasbah_Ras_El_Ain.JPG/1920px-Kasbah_Ras_El_Ain.JPG"
+    },
+    {
+      "file": "2.jpg",
+      "commons": "File:Kasbah d'Aïn Asserdoun.jpg",
+      "bytes": 909026,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Kasbah_d%27A%C3%AFn_Asserdoun.jpg/1280px-Kasbah_d%27A%C3%AFn_Asserdoun.jpg"
+    }
+  ]
+}

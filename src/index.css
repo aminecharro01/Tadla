@@ -1,0 +1,227 @@
+@import 'tailwindcss';
+
+/*
+  Brand palette:
+  #003580 primary · #009fe3 accent blue · #ee0a65 accent magenta · #000000 · #ffffff
+*/
+@theme {
+  --color-background: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-container: #f0f4f8;
+  --color-surface-container-low: #f5f8fb;
+  --color-surface-container-high: #e4ebf2;
+  --color-surface-container-highest: #d6e0ea;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-variant: #e4ebf2;
+  --color-surface-dim: #c8d4e0;
+  --color-on-surface: #000000;
+  --color-on-surface-variant: #334155;
+  --color-on-background: #000000;
+
+  --color-primary: #003580;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #009fe3;
+  --color-on-primary-container: #003580;
+  --color-primary-fixed: #b3e5f9;
+  --color-inverse-primary: #009fe3;
+  --color-surface-tint: #003580;
+
+  --color-secondary: #009fe3;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #d6f1fb;
+  --color-on-secondary-container: #003580;
+
+  --color-tertiary: #ee0a65;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #ffd6e5;
+  --color-on-tertiary-container: #8a0038;
+  --color-tertiary-fixed: #ffd6e5;
+
+  --color-outline: #64748b;
+  --color-outline-variant: #cbd5e1;
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-on-error: #ffffff;
+  --color-on-error-container: #93000a;
+
+  --font-headline: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-logo: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-body: 'Hanken Grotesk', system-ui, sans-serif;
+  --font-mono: 'Hanken Grotesk', system-ui, sans-serif;
+
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-3xl: 1.5rem;
+}
+
+:root {
+  --color-muted: #334155;
+  --color-border: #cbd5e1;
+  --color-surface-2: #f0f4f8;
+  --color-accent-soft: #d6f1fb;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    font-family: var(--font-body);
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  .font-headline {
+    font-family: var(--font-headline);
+  }
+
+  ::selection {
+    background: var(--color-primary-container);
+    color: var(--color-on-primary-container);
+  }
+}
+
+@layer utilities {
+  .font-logo {
+    font-family: var(--font-logo);
+    font-optical-sizing: auto;
+    letter-spacing: -0.02em;
+  }
+
+  .font-dossier {
+    font-family: var(--font-body);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(0, 159, 227, 0.2);
+  }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .hero-atlas-night .map-view__canvas {
+    filter: saturate(0.85) brightness(0.88);
+  }
+}
+
+.leaflet-container {
+  font: inherit;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.map-view {
+  width: 100%;
+  height: 100%;
+  min-height: 240px;
+  border-radius: 0;
+  overflow: hidden;
+  border: none;
+  position: relative;
+}
+
+.map-view__canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.map-stop-icon span {
+  background: #003580 !important;
+}
+
+@media print {
+  nav,
+  header nav,
+  .no-print,
+  .leaflet-container,
+  .map-view,
+  [data-layout-nav] {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+    color: #111 !important;
+    font-size: 12pt;
+  }
+
+  a {
+    color: #003580 !important;
+    text-decoration: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .print-day-plan {
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .print-day-card,
+  .print-day-plan article {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+    margin-bottom: 12pt;
+  }
+
+  .print-poi-photo {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .print-day-plan .grid {
+    display: block !important;
+  }
+}

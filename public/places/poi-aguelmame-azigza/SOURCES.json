@@ -1,0 +1,19 @@
+{
+  "poiId": "poi-aguelmame-azigza",
+  "note": "Wikimedia Commons HQ photos for famous places.",
+  "downloadedAt": "2026-07-24T11:29:33.066Z",
+  "files": [
+    {
+      "file": "1.jpg",
+      "commons": "File:Aguelmame Aziza lake.jpg",
+      "bytes": 533140,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Aguelmame_Aziza_lake.jpg/1920px-Aguelmame_Aziza_lake.jpg"
+    },
+    {
+      "file": "2.jpg",
+      "commons": "File:Aglmam Azegza khenifra.JPG",
+      "bytes": 239623,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Aglmam_Azegza_khenifra.JPG/1920px-Aglmam_Azegza_khenifra.JPG"
+    }
+  ]
+}

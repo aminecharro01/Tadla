@@ -1,0 +1,192 @@
+[
+  {
+    "id": "artisan-bazar-ouzoud",
+    "artisanId": "seed-artisan-bazar-ouzoud",
+    "craftType": "souvenirs, jewelry, general crafts",
+    "village": "Ouzoud, Azilal province",
+    "description": "A well-reviewed souvenir and craft shop right at Ouzoud Falls, run by Hasan. Wide selection, noted by visitors for fair prices.",
+    "lat": 32.0144525,
+    "lng": -6.7209294,
+    "products": [
+      { "name": "Silver-plated Amazigh bracelet", "price": 120, "imageUrl": "/samples/products/bracelet.jpg" },
+      { "name": "Hand-painted ceramic bowl", "price": 80, "imageUrl": "/samples/products/ceramic-bowl.jpg" },
+      { "name": "Ouzoud keepsake magnet set (3)", "price": 35, "imageUrl": "/samples/products/magnet.jpg" },
+      { "name": "Leather coin pouch", "price": 60, "imageUrl": "/samples/products/leather-pouch.jpg" }
+    ],
+    "contactInfo": {
+      "name": "Bazar Ouzoud",
+      "whatsapp": "212676240964",
+      "photoUrl": "/samples/artisans/bazar-ouzoud.jpg"
+    },
+    "rating": 5.0,
+    "reviewCount": 63,
+    "source": "Google Maps verified",
+    "verificationNote": "Contact directly to confirm interest in being featured before publishing"
+  },
+  {
+    "id": "artisan-bazar-ibrahimy",
+    "artisanId": "seed-artisan-bazar-ibrahimy",
+    "craftType": "home goods, crafts",
+    "village": "Ouzoud, Azilal province",
+    "description": "A home goods and craft shop near Ouzoud Falls.",
+    "lat": 32.0139871,
+    "lng": -6.7196485,
+    "products": [
+      { "name": "Woven palm basket (medium)", "price": 90, "imageUrl": "/samples/products/basket.jpg" },
+      { "name": "Thuya wood jewelry box", "price": 150, "imageUrl": "/samples/products/wood-box.jpg" },
+      { "name": "Hand-carved serving spoon set", "price": 55, "imageUrl": "/samples/products/spoons.jpg" }
+    ],
+    "contactInfo": {
+      "name": "Bazar Ibrahimy",
+      "whatsapp": "212616306642",
+      "photoUrl": "/samples/artisans/bazar-ibrahimy.jpg"
+    },
+    "rating": 5.0,
+    "reviewCount": 5,
+    "source": "Google Maps verified",
+    "verificationNote": "Contact directly to confirm interest in being featured before publishing"
+  },
+  {
+    "id": "artisan-poterie-demnate",
+    "artisanId": "seed-artisan-poterie-demnate",
+    "craftType": "pottery, ceramics",
+    "village": "Demnate, Azilal province",
+    "description": "A dedicated pottery marketplace in a former bus station, where vendors display traditional tagines, jars, and vases made using techniques passed down locally.",
+    "lat": 31.7325356,
+    "lng": -6.9995664,
+    "products": [
+      { "name": "Traditional clay tagine (2-3 people)", "price": 130, "imageUrl": "/samples/products/tagine.jpg" },
+      { "name": "Glazed water jar (5L)", "price": 180, "imageUrl": "/samples/products/jar.jpg" },
+      { "name": "Mini decorative tagine", "price": 40, "imageUrl": "/samples/products/mini-tagine.jpg" },
+      { "name": "Terracotta flower vase", "price": 95, "imageUrl": "/samples/products/vase.jpg" }
+    ],
+    "contactInfo": {
+      "name": "Place de poterie (Demnate pottery market)",
+      "whatsapp": "",
+      "photoUrl": "/samples/products/tagine.jpg"
+    },
+    "rating": 4.3,
+    "reviewCount": 3,
+    "source": "Google Maps verified",
+    "verificationNote": "No phone listed - visit in person or contact via the regional tourism council to establish a partnership"
+  },
+  {
+    "id": "artisan-cooperative-tapis-khenifra",
+    "artisanId": "seed-artisan-tapis-khenifra",
+    "craftType": "hand-woven Amazigh carpets",
+    "village": "Khenifra",
+    "description": "A cooperative and gallery of handmade Amazigh rugs, run by Zakaria, who works directly with the women weavers producing the pieces. Reviewers highlight direct-from-source pricing and being shown the weaving workshop.",
+    "lat": 32.9344731,
+    "lng": -5.6704845,
+    "products": [
+      { "name": "Zanafi kilim rug (150×100 cm)", "price": 900, "imageUrl": "/samples/products/kilim.jpg" },
+      { "name": "Beni Ourain style rug (200×150 cm)", "price": 2200, "imageUrl": "/samples/products/rug.jpg" },
+      { "name": "Woven cushion cover (pair)", "price": 220, "imageUrl": "/samples/products/cushion.jpg" },
+      { "name": "Small prayer rug", "price": 450, "imageUrl": "/samples/products/prayer-rug.jpg" }
+    ],
+    "contactInfo": {
+      "name": "Cooperative tapis berbere Khenifra",
+      "whatsapp": "212647124812",
+      "photoUrl": "/samples/products/kilim.jpg"
+    },
+    "rating": 5.0,
+    "reviewCount": 7,
+    "source": "Google Maps verified",
+    "verificationNote": "Strong candidate for a featured/flagship artisan partner - real cooperative with real weavers"
+  },
+  {
+    "id": "artisan-salbio-beni-mellal",
+    "artisanId": "seed-artisan-salbio",
+    "craftType": "organic local products (amlou, argan/almond spread, apple cider vinegar)",
+    "village": "Beni Mellal",
+    "description": "A cooperative producing organic regional food products such as amlou (almond and argan spread). A genuine local producer for the regional products section of the marketplace.",
+    "lat": 32.3388909,
+    "lng": -6.3636645,
+    "products": [
+      { "name": "Amlou (almond & argan spread, 250g)", "price": 85, "imageUrl": "/samples/products/amlou.jpg" },
+      { "name": "Pure almond butter (200g)", "price": 70, "imageUrl": "/samples/products/almond-butter.jpg" },
+      { "name": "Apple cider vinegar (500ml)", "price": 45, "imageUrl": "/samples/products/vinegar.jpg" },
+      { "name": "Mountain honey (350g)", "price": 120, "imageUrl": "/samples/products/honey.jpg" }
+    ],
+    "contactInfo": {
+      "name": "SAL BIO Beni Mellal",
+      "whatsapp": "212661617258",
+      "photoUrl": "/samples/products/amlou.jpg"
+    },
+    "rating": 4.8,
+    "reviewCount": 40,
+    "source": "Google Maps verified",
+    "verificationNote": "Consider a separate 'local products' category alongside crafts if you add this"
+  },
+  {
+    "id": "artisan-coop-safran-atlas",
+    "artisanId": "seed-artisan-coop-safran",
+    "craftType": "saffron, herbs, mountain teas",
+    "village": "Aït Bouguemez valley, Azilal province",
+    "description": "Demo cooperative of mountain families growing saffron and drying wild herbs from the Happy Valley. Sample data for demonstration.",
+    "lat": 31.6531,
+    "lng": -6.4692,
+    "products": [
+      { "name": "Saffron threads (1g)", "price": 60, "imageUrl": "/samples/products/saffron.jpg" },
+      { "name": "Dried wild thyme (100g)", "price": 30, "imageUrl": "/samples/products/thyme.jpg" },
+      { "name": "Mountain herbal tea mix (150g)", "price": 50, "imageUrl": "/samples/products/tea.jpg" },
+      { "name": "Gift box: saffron + honey + amlou", "price": 240, "imageUrl": "/samples/products/gift-box.jpg" }
+    ],
+    "contactInfo": {
+      "name": "Coopérative Safran de l'Atlas (démo)",
+      "whatsapp": "212600000001",
+      "photoUrl": "/samples/products/saffron.jpg"
+    },
+    "rating": 4.9,
+    "reviewCount": 12,
+    "source": "demo",
+    "verificationNote": "Demo cooperative for marketplace demonstration"
+  },
+  {
+    "id": "artisan-coop-tissage-azilal",
+    "artisanId": "seed-artisan-coop-tissage",
+    "craftType": "women's weaving cooperative — blankets, shawls",
+    "village": "Azilal",
+    "description": "Demo women's weaving cooperative making wool blankets and shawls with natural dyes. Sample data for demonstration.",
+    "lat": 31.9622,
+    "lng": -6.5715,
+    "products": [
+      { "name": "Handwoven wool blanket (220×150 cm)", "price": 750, "imageUrl": "/samples/products/blanket.jpg" },
+      { "name": "Natural-dye shawl", "price": 260, "imageUrl": "/samples/products/shawl.jpg" },
+      { "name": "Woven table runner", "price": 180, "imageUrl": "/samples/products/runner.jpg" }
+    ],
+    "contactInfo": {
+      "name": "Coopérative Tissage Azilal (démo)",
+      "whatsapp": "212600000002",
+      "photoUrl": "/samples/products/blanket.jpg"
+    },
+    "rating": 4.7,
+    "reviewCount": 9,
+    "source": "demo",
+    "verificationNote": "Demo cooperative for marketplace demonstration"
+  },
+  {
+    "id": "artisan-leather-khenifra",
+    "artisanId": "seed-artisan-leather-khenifra",
+    "craftType": "leather goods",
+    "village": "Khénifra",
+    "description": "Demo leather workshop crafting bags, belts, and babouches from local hides. Sample data for demonstration.",
+    "lat": 32.9391,
+    "lng": -5.6608,
+    "products": [
+      { "name": "Leather crossbody bag", "price": 320, "imageUrl": "/samples/products/leather-bag.jpg" },
+      { "name": "Traditional babouche slippers", "price": 140, "imageUrl": "/samples/products/babouche.jpg" },
+      { "name": "Hand-stitched belt", "price": 110, "imageUrl": "/samples/products/belt.jpg" },
+      { "name": "Travel wallet", "price": 90, "imageUrl": "/samples/products/wallet.jpg" }
+    ],
+    "contactInfo": {
+      "name": "Atelier Cuir Khénifra (démo)",
+      "whatsapp": "212600000003",
+      "photoUrl": "/samples/products/leather-bag.jpg"
+    },
+    "rating": 4.6,
+    "reviewCount": 15,
+    "source": "demo",
+    "verificationNote": "Demo artisan for marketplace demonstration"
+  }
+]

@@ -1,0 +1,135 @@
+{
+  "ok": [
+    {
+      "id": "poi-ouzoud-falls",
+      "count": 3
+    },
+    {
+      "id": "poi-bin-el-ouidane",
+      "count": 1
+    },
+    {
+      "id": "poi-ain-asserdoun",
+      "count": 1
+    },
+    {
+      "id": "poi-kasbah-ras-el-ain",
+      "count": 1
+    },
+    {
+      "id": "poi-mgoun-peak",
+      "count": 3
+    }
+  ],
+  "miss": [
+    {
+      "id": "poi-imi-n-ifri",
+      "count": 0
+    },
+    {
+      "id": "poi-aguelmame-azigza",
+      "count": 0
+    },
+    {
+      "id": "poi-aguelmame-sidi-ali",
+      "count": 0
+    },
+    {
+      "id": "poi-ait-bouguemez",
+      "count": 0
+    },
+    {
+      "id": "poi-kasbah-tadla",
+      "count": 0
+    },
+    {
+      "id": "poi-oum-er-rbia-springs",
+      "count": 0
+    },
+    {
+      "id": "poi-zaouiat-ahansal",
+      "count": 0
+    },
+    {
+      "id": "poi-taghzirte-gorges",
+      "count": 0
+    },
+    {
+      "id": "poi-khenifra-national-park",
+      "count": 0
+    },
+    {
+      "id": "poi-ahouli-mibladen",
+      "count": 0
+    },
+    {
+      "id": "poi-iouaridene-tracks",
+      "count": 0
+    },
+    {
+      "id": "poi-marche-central-beni-mellal",
+      "count": 0
+    },
+    {
+      "id": "poi-parc-ain-asserdoun-botanique",
+      "count": 0
+    },
+    {
+      "id": "poi-cip-ain-asserdoun",
+      "count": 0
+    },
+    {
+      "id": "poi-imsfrane-cathedral",
+      "count": 0
+    },
+    {
+      "id": "poi-ajdir-plateau",
+      "count": 0
+    },
+    {
+      "id": "poi-tigelmamine",
+      "count": 0
+    },
+    {
+      "id": "poi-khouribga-phosphate",
+      "count": 0
+    },
+    {
+      "id": "poi-oued-zem-lake",
+      "count": 0
+    },
+    {
+      "id": "poi-musee-azilal",
+      "count": 0
+    },
+    {
+      "id": "poi-parc-municipal-bm",
+      "count": 0
+    },
+    {
+      "id": "poi-jardin-oliviers-bm",
+      "count": 0
+    },
+    {
+      "id": "poi-kasbah-moha-hammou",
+      "count": 0
+    },
+    {
+      "id": "poi-parc-el-ochaq",
+      "count": 0
+    },
+    {
+      "id": "poi-aoujgal-granaries",
+      "count": 0
+    },
+    {
+      "id": "poi-assif-ahansal",
+      "count": 0
+    },
+    {
+      "id": "poi-mastfrane-folds",
+      "count": 0
+    }
+  ],
+  "at": "2026-07-23T23:27:31.091Z"
+}

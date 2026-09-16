@@ -1,0 +1,176 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+    function uid() {
+      return request.auth.uid;
+    }
+    function userDoc() {
+      return get(/databases/$(database)/documents/users/$(uid())).data;
+    }
+    function isAdmin() {
+      return signedIn() && userDoc().role == 'admin';
+    }
+    function partnerApproved() {
+      return !('partnerStatus' in userDoc()) || userDoc().partnerStatus == 'approved';
+    }
+    function isGuide() {
+      return signedIn() && (
+        userDoc().role == 'admin' ||
+        (userDoc().role == 'guide' && partnerApproved())
+      );
+    }
+    function isArtisan() {
+      return signedIn() &&
+        userDoc().role in ['artisan', 'cooperative'] &&
+        partnerApproved();
+    }
+    function partnerRoles() {
+      return ['guide', 'artisan', 'cooperative'];
+    }
+    function validPartnerCreate() {
+      return request.resource.data.role in partnerRoles() &&
+        request.resource.data.partnerStatus in ['pending_docs', 'pending_review'];
+    }
+    function selfRoleUnchanged() {
+      return request.resource.data.role == resource.data.role;
+    }
+    function selfCannotSelfApprove() {
+      // May keep approved, or move between pending/rejected — never self-set approved from another status
+      return request.resource.data.get('partnerStatus', resource.data.get('partnerStatus', '')) ==
+          resource.data.get('partnerStatus', '') ||
+        (
+          request.resource.data.partnerStatus in ['pending_docs', 'pending_review', 'rejected'] &&
+          resource.data.get('partnerStatus', 'pending_docs') != 'approved'
+        ) ||
+        (
+          resource.data.get('partnerStatus', '') == 'approved' &&
+          request.resource.data.partnerStatus == 'approved'
+        );
+    }
+
+    match /pois/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+
+    match /users/{userId} {
+      allow read: if signedIn() && (request.auth.uid == userId || isAdmin());
+      allow create: if signedIn() && request.auth.uid == userId && (
+        request.resource.data.role == 'tourist' ||
+        validPartnerCreate()
+      );
+      allow update: if signedIn() && (
+        isAdmin() ||
+        (
+          request.auth.uid == userId &&
+          selfRoleUnchanged() &&
+          selfCannotSelfApprove()
+        ) ||
+        (
+          // Tourist → partner application (role set with pending verification)
+          request.auth.uid == userId &&
+          resource.data.role == 'tourist' &&
+          request.resource.data.role in partnerRoles() &&
+          request.resource.data.partnerStatus in ['pending_docs', 'pending_review']
+        )
+      );
+    }
+
+    match /tripPrograms/{id} {
+      allow read: if true;
+      allow create: if isAdmin() || (
+        isGuide() && request.resource.data.guideId == uid()
+      );
+      // Guides may only edit their own trips and may not reassign ownership.
+      allow update: if isAdmin() || (
+        isGuide() &&
+        resource.data.guideId == uid() &&
+        request.resource.data.guideId == uid()
+      );
+      allow delete: if isAdmin();
+    }
+
+    function ownsBookedTrip(booking) {
+      return get(/databases/$(database)/documents/tripPrograms/$(booking.tripProgramId))
+        .data.guideId == uid();
+    }
+
+    match /bookings/{id} {
+      allow read: if signedIn() && (
+        resource.data.touristId == uid() || isGuide() || isAdmin()
+      );
+      allow create: if signedIn() && request.resource.data.touristId == uid();
+      // Tourists may cancel their own booking; only the trip's guide (or admin)
+      // may change its status otherwise.
+      allow update: if signedIn() && (
+        (resource.data.touristId == uid() && request.resource.data.status == 'cancelled') ||
+        (isGuide() && ownsBookedTrip(resource.data)) ||
+        isAdmin()
+      );
+      allow delete: if isAdmin();
+    }
+
+    match /artisanListings/{id} {
+      allow read: if true;
+      allow create: if isAdmin() || (
+        isArtisan() && request.resource.data.artisanId == uid()
+      );
+      allow update: if isAdmin() || (
+        isArtisan() &&
+        resource.data.artisanId == uid() &&
+        request.resource.data.artisanId == uid()
+      );
+      allow delete: if isAdmin() || (
+        isArtisan() && resource.data.artisanId == uid()
+      );
+    }
+
+    match /productOrders/{id} {
+      allow read: if signedIn() && (
+        resource.data.touristId == uid() ||
+        resource.data.artisanId == uid() ||
+        isAdmin()
+      );
+      allow create: if signedIn() &&
+        request.resource.data.touristId == uid() &&
+        request.resource.data.status == 'pending';
+      allow update: if signedIn() && (
+        (resource.data.touristId == uid() && request.resource.data.status == 'cancelled') ||
+        (resource.data.artisanId == uid() &&
+          request.resource.data.status in ['confirmed', 'delivered', 'declined']) ||
+        isAdmin()
+      );
+      allow delete: if isAdmin();
+    }
+
+    match /partnerApplications/{id} {
+      allow read: if signedIn() && (resource.data.userId == uid() || isAdmin());
+      allow create: if signedIn() && request.resource.data.userId == uid()
+        && request.resource.data.status in ['pending', 'pending_docs', 'pending_review'];
+      allow update: if isAdmin() || (
+        signedIn() &&
+        resource.data.userId == uid() &&
+        request.resource.data.userId == uid() &&
+        request.resource.data.status in ['pending', 'pending_docs', 'pending_review'] &&
+        request.resource.data.status != 'approved'
+      );
+      allow delete: if isAdmin();
+    }
+
+    match /savedItineraries/{id} {
+      allow read: if signedIn() && (resource.data.touristId == uid() || isGuide() || isAdmin());
+      allow create: if signedIn() && request.resource.data.touristId == uid();
+      allow update: if isGuide() || isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    match /reviews/{id} {
+      allow read: if true;
+      allow create: if signedIn() && request.resource.data.userId == uid();
+      allow delete: if isAdmin() || (signedIn() && resource.data.userId == uid());
+    }
+  }
+}

@@ -1,0 +1,26 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    function signedIn() {
+      return request.auth != null;
+    }
+    function isOwner(userId) {
+      return signedIn() && request.auth.uid == userId;
+    }
+    function isAdmin() {
+      return signedIn() &&
+        firestore.get(/databases/(default)/documents/users/$(request.auth.uid)).data.role == 'admin';
+    }
+    function validDoc() {
+      return request.resource.size < 8 * 1024 * 1024 &&
+        request.resource.contentType.matches('image/.*|application/pdf');
+    }
+
+    // Partner identity proofs: partner-docs/{uid}/{file}
+    match /partner-docs/{userId}/{fileName} {
+      allow read: if isOwner(userId) || isAdmin();
+      allow create, update: if isOwner(userId) && validDoc();
+      allow delete: if isOwner(userId) || isAdmin();
+    }
+  }
+}

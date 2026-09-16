@@ -1,0 +1,25 @@
+{
+  "poiId": "poi-mgoun-peak",
+  "note": "Wikimedia Commons free-licensed photos verified for this place. NOT scraped from TripAdvisor / Airbnb / Booking (copyright).",
+  "downloadedAt": "2026-07-23T23:32:13.403Z",
+  "files": [
+    {
+      "file": "1.jpg",
+      "commons": "File:Ighil M'Goun vu depuis Arous.jpg",
+      "bytes": 696537,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ighil_M%27Goun_vu_depuis_Arous.jpg/1920px-Ighil_M%27Goun_vu_depuis_Arous.jpg"
+    },
+    {
+      "file": "2.jpg",
+      "commons": "File:Ouarzazate Province, Morocco - panoramio.jpg",
+      "bytes": 1321558,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Ouarzazate_Province%2C_Morocco_-_panoramio.jpg/1920px-Ouarzazate_Province%2C_Morocco_-_panoramio.jpg"
+    },
+    {
+      "file": "3.jpg",
+      "commons": "File:Ouarzazate Province, Morocco - panoramio (6).jpg",
+      "bytes": 569074,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Ouarzazate_Province%2C_Morocco_-_panoramio_%286%29.jpg/1920px-Ouarzazate_Province%2C_Morocco_-_panoramio_%286%29.jpg"
+    }
+  ]
+}

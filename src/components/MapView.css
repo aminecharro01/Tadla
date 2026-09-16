@@ -1,0 +1,142 @@
+.map-view {
+  width: 100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-2);
+}
+
+.map-view.map-view--embedded {
+  border: none;
+  border-radius: 0;
+  height: 100%;
+}
+
+.map-view__canvas {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.map-view__category {
+  text-transform: capitalize;
+  color: #555;
+  font-size: 0.85em;
+}
+
+.map-view__popup-photo {
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 0.65rem;
+  margin: 0 0 0.45rem;
+}
+
+.map-stop-icon {
+  background: transparent;
+  border: none;
+}
+
+.map-stop-icon span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #003580;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.8rem;
+  font-family: 'Hanken Grotesk', system-ui, sans-serif;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 35%);
+  border: 2px solid #fff;
+}
+
+/* Photo + pin marker */
+.map-photo-pin-wrap {
+  background: transparent !important;
+  border: none !important;
+}
+
+.map-photo-pin {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  filter: drop-shadow(0 4px 10px rgb(0 21 64 / 35%));
+}
+
+.map-photo-pin__shot {
+  width: 44px;
+  height: 44px;
+  overflow: hidden;
+  border-radius: 14px;
+  border: 2.5px solid #fff;
+  background: #e8eef5;
+}
+
+.map-photo-pin-wrap.is-highlighted .map-photo-pin__shot {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  border-color: #ee0a65;
+  box-shadow: 0 0 0 3px rgb(238 10 101 / 28%);
+}
+
+.map-photo-pin__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.map-photo-pin__placeholder {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: #003580;
+  opacity: 0.45;
+}
+
+.map-photo-pin__dot {
+  position: absolute;
+  right: -3px;
+  bottom: -2px;
+  width: 14px;
+  height: 14px;
+  border-radius: 999px;
+  background: #003580;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+}
+
+.map-photo-pin-wrap.is-highlighted .map-photo-pin__dot {
+  width: 16px;
+  height: 16px;
+  background: #ee0a65;
+}
+
+.map-photo-pin.is-fallback .map-photo-pin__shot {
+  background: linear-gradient(145deg, #c5d8ef, #e8eef5);
+}
+
+.map-photo-pin.is-fallback .map-photo-pin__img {
+  display: none;
+}
+
+.map-photo-pin.is-fallback .map-photo-pin__shot::after {
+  content: '◇';
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #003580;
+  opacity: 0.4;
+  font-size: 1.1rem;
+}

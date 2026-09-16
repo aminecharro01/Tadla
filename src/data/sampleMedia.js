@@ -1,0 +1,42 @@
+/** Demo photo presets for product & trip forms (local /public/samples). */
+
+export const SAMPLE_PRODUCT_IMAGES = [
+  { id: 'bracelet', label: 'Bracelet', url: '/samples/products/bracelet.jpg' },
+  { id: 'ceramic-bowl', label: 'Ceramic', url: '/samples/products/ceramic-bowl.jpg' },
+  { id: 'magnet', label: 'Magnet', url: '/samples/products/magnet.jpg' },
+  { id: 'leather-pouch', label: 'Leather pouch', url: '/samples/products/leather-pouch.jpg' },
+  { id: 'basket', label: 'Basket', url: '/samples/products/basket.jpg' },
+  { id: 'wood-box', label: 'Wood box', url: '/samples/products/wood-box.jpg' },
+  { id: 'spoons', label: 'Spoons', url: '/samples/products/spoons.jpg' },
+  { id: 'tagine', label: 'Tagine', url: '/samples/products/tagine.jpg' },
+  { id: 'jar', label: 'Jar', url: '/samples/products/jar.jpg' },
+  { id: 'mini-tagine', label: 'Mini tagine', url: '/samples/products/mini-tagine.jpg' },
+  { id: 'vase', label: 'Vase', url: '/samples/products/vase.jpg' },
+  { id: 'kilim', label: 'Kilim', url: '/samples/products/kilim.jpg' },
+  { id: 'rug', label: 'Rug', url: '/samples/products/rug.jpg' },
+  { id: 'cushion', label: 'Cushion', url: '/samples/products/cushion.jpg' },
+  { id: 'prayer-rug', label: 'Prayer rug', url: '/samples/products/prayer-rug.jpg' },
+  { id: 'amlou', label: 'Amlou', url: '/samples/products/amlou.jpg' },
+  { id: 'almond-butter', label: 'Almond butter', url: '/samples/products/almond-butter.jpg' },
+  { id: 'vinegar', label: 'Vinegar', url: '/samples/products/vinegar.jpg' },
+  { id: 'honey', label: 'Honey', url: '/samples/products/honey.jpg' },
+  { id: 'saffron', label: 'Saffron', url: '/samples/products/saffron.jpg' },
+  { id: 'thyme', label: 'Thyme', url: '/samples/products/thyme.jpg' },
+  { id: 'tea', label: 'Tea', url: '/samples/products/tea.jpg' },
+  { id: 'gift-box', label: 'Gift box', url: '/samples/products/gift-box.jpg' },
+  { id: 'blanket', label: 'Blanket', url: '/samples/products/blanket.jpg' },
+  { id: 'shawl', label: 'Shawl', url: '/samples/products/shawl.jpg' },
+  { id: 'runner', label: 'Runner', url: '/samples/products/runner.jpg' },
+  { id: 'leather-bag', label: 'Leather bag', url: '/samples/products/leather-bag.jpg' },
+  { id: 'babouche', label: 'Babouche', url: '/samples/products/babouche.jpg' },
+  { id: 'belt', label: 'Belt', url: '/samples/products/belt.jpg' },
+  { id: 'wallet', label: 'Wallet', url: '/samples/products/wallet.jpg' },
+];
+
+export const SAMPLE_TRIP_COVERS = [
+  { id: 'ouzoud', label: 'Ouzoud', url: '/samples/trips/ouzoud.jpg' },
+  { id: 'lakes', label: 'Lakes', url: '/samples/trips/lakes.jpg' },
+  { id: 'valley', label: 'Valley', url: '/samples/trips/valley.jpg' },
+  { id: 'cedar', label: 'Cedar', url: '/samples/trips/cedar.jpg' },
+  { id: 'geopark', label: 'Geopark', url: '/samples/trips/geopark.jpg' },
+];

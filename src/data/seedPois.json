@@ -1,0 +1,692 @@
+[
+  {
+    "id": "poi-ouzoud-falls",
+    "name": "Cascades d'Ouzoud",
+    "category": "waterfall",
+    "description": "One of Morocco's tallest waterfalls, dropping around 110 meters in three tiers into the El-Abid River gorge, near the village of Tanaghmeilt in Azilal province. Surrounded by olive groves, with walking paths to the base, boat rides beneath the falls, and resident Barbary macaques along the trail.",
+    "lat": 32.0151371,
+    "lng": -6.7201469,
+    "hours": "Open year-round, daylight hours; best visited morning or late afternoon",
+    "images": [
+      "/places/poi-ouzoud-falls/1.jpg",
+      "/places/poi-ouzoud-falls/2.jpg",
+      "/places/poi-ouzoud-falls/3.jpg"
+    ],
+    "source": "Google Maps verified"
+  },
+  {
+    "id": "poi-ain-asserdoun",
+    "name": "Ain Asserdoun",
+    "category": "garden",
+    "description": "A natural spring and terraced garden park above Béni Mellal, around 640 meters altitude, with pools fed by cool spring water, cafés, and mule rides. A well-loved local spot for walks and picnics, with a path leading up to the hilltop kasbah.",
+    "lat": 32.3250992,
+    "lng": -6.3356982,
+    "hours": "9:00 AM - 5:00 PM daily",
+    "images": [
+      "/places/poi-ain-asserdoun/1.jpg",
+      "/places/poi-ain-asserdoun/2.jpg",
+      "/places/poi-ain-asserdoun/3.jpg"
+    ],
+    "source": "Google Maps verified"
+  },
+  {
+    "id": "poi-kasbah-ras-el-ain",
+    "name": "Kasr Aïn Asserdoun",
+    "category": "heritage",
+    "description": "Hilltop fortress (Kasr / Kasbah Aïn Asserdoun) above the Aïn Asserdoun spring gardens in Béni Mellal, historically linked to the Moulay Ismail era. Panoramic views over the city and the Tadla plain; grounds sometimes host cultural events. Also known locally as Kasbah Ras el Aïn.",
+    "lat": 32.3246584,
+    "lng": -6.3375213,
+    "hours": "Open year-round, exterior/grounds accessible; interior access varies",
+    "images": [
+      "/places/poi-kasbah-ras-el-ain/1.jpg",
+      "/places/poi-kasbah-ras-el-ain/2.jpg",
+      "/places/poi-kasbah-ras-el-ain/3.jpg"
+    ],
+    "source": "Google Maps verified"
+  },
+  {
+    "id": "poi-bin-el-ouidane",
+    "name": "Lac et barrage de Bin El Ouidane",
+    "category": "lake",
+    "description": "A large turquoise reservoir formed by a dam on the El Abid and Ahansal rivers in the Atlas Mountains, roughly 132 meters high and 290 meters wide. Popular for boating, fishing, jet skiing, and scenic drives.",
+    "lat": 32.0976007,
+    "lng": -6.4130601,
+    "hours": "Open year-round, daylight hours",
+    "images": [
+      "/places/poi-bin-el-ouidane/1.jpg",
+      "/places/poi-bin-el-ouidane/2.jpg",
+      "/places/poi-bin-el-ouidane/3.jpg"
+    ],
+    "source": "Google Maps verified"
+  },
+  {
+    "id": "poi-kasbah-tadla",
+    "name": "Kasbah Tadla",
+    "category": "heritage",
+    "description": "A historic town on the Oum Er-Rbia river, along the old Fes-Marrakech caravan route, with a walled medina and ramparts from its time as a strategic military post.",
+    "lat": 32.5958283,
+    "lng": -6.2694608,
+    "hours": "Medina open year-round, daylight hours",
+    "images": [
+      "/places/poi-kasbah-tadla/1.jpg",
+      "/places/poi-kasbah-tadla/2.jpg"
+    ],
+    "source": "Google Maps verified"
+  },
+  {
+    "id": "poi-imi-n-ifri",
+    "name": "Imi n'Ifri Natural Bridge",
+    "category": "nature",
+    "description": "A massive natural limestone arch near Demnate, formed by a collapsed underground cave system, with the Mehasseur river running through the gorge below. A short, adventurous hike leads under and through the bridge. Classified as a site of biological and ecological interest.",
+    "lat": 31.7242,
+    "lng": -6.9713946,
+    "hours": "Closed Mondays; open 24 hours other days",
+    "images": [
+      "/places/poi-imi-n-ifri/1.jpg",
+      "/places/poi-imi-n-ifri/2.jpg",
+      "/places/poi-imi-n-ifri/3.jpg"
+    ],
+    "source": "Google Maps verified"
+  },
+  {
+    "id": "poi-khenifra-national-park",
+    "name": "Khenifra National Park",
+    "category": "nature",
+    "description": "A protected area in the Middle Atlas spanning cedar and oak forests, part of the Atlas Cedar Biosphere Reserve, with high-altitude lakes (Aguelmame Sidi Ali, Aguelmame Azigza), hiking trails, and wildlife including Barbary macaques.",
+    "lat": 32.96,
+    "lng": -5.45,
+    "hours": "Open year-round; best access spring through autumn",
+    "images": [
+      "/places/poi-khenifra-national-park/1.jpg",
+      "/places/poi-khenifra-national-park/2.jpg",
+      "/places/poi-khenifra-national-park/3.jpg",
+      "/places/poi-khenifra-national-park/4.jpg"
+    ],
+    "source": "approximate - large protected area, verify exact boundary before use"
+  },
+  {
+    "id": "poi-aguelmame-azigza",
+    "name": "Aguelmame Azigza (Aziza)",
+    "category": "lake",
+    "description": "A karstic high-altitude lake also called Aguelmame Aziza — the 'green lake' — surrounded by cedar and pine forest within Khenifra National Park. Popular for camping and swimming, with occasional deer sightings.",
+    "lat": 32.9740469,
+    "lng": -5.4429699,
+    "hours": "Open year-round; camping possible around the lake",
+    "images": [
+      "/places/poi-aguelmame-azigza/1.jpg",
+      "/places/poi-aguelmame-azigza/2.jpg"
+    ],
+    "source": "Google Maps verified"
+  },
+  {
+    "id": "poi-khenifra-waterfall-park",
+    "name": "Khenifra Waterfall Park",
+    "category": "waterfall",
+    "description": "A small, recently restored waterfall and landscaped park at the entrance to Khenifra city, with benches and gardens - popular for a short evening walk rather than a full excursion.",
+    "lat": 32.942135,
+    "lng": -5.661521,
+    "hours": "Open 24 hours",
+    "images": [
+      "/places/poi-khenifra-waterfall-park/1.jpg",
+      "/places/poi-khenifra-waterfall-park/2.jpg",
+      "/places/poi-khenifra-waterfall-park/3.jpg",
+      "/places/poi-khenifra-waterfall-park/4.jpg"
+    ],
+    "source": "Google Maps verified"
+  },
+  {
+    "id": "poi-taghzirte-gorges",
+    "name": "Gorges de Taghzirte",
+    "category": "nature",
+    "description": "Oak-forested canyons about 20 km from Beni Mellal, carved by the Aqqa-n-Ouhansal and Oued Derna rivers, with caves and rock shelters still used seasonally by shepherds. A roughly 5-hour hiking route.",
+    "lat": 32.2,
+    "lng": -6.55,
+    "hours": "Daylight hours; guide recommended for the full route",
+    "images": [
+      "/places/poi-taghzirte-gorges/1.jpg",
+      "/places/poi-taghzirte-gorges/2.jpg",
+      "/places/poi-taghzirte-gorges/3.jpg",
+      "/places/poi-taghzirte-gorges/4.jpg"
+    ],
+    "source": "approximate - verify exact trailhead coordinates"
+  },
+  {
+    "id": "poi-ait-bouguemez",
+    "name": "Vallee des Ait Bouguemez",
+    "category": "valley",
+    "description": "Known as the 'happy valley,' a green plateau at 1,800-2,400m in the central High Atlas, dotted with traditional ochre pise villages and terraced fields, at the foot of Mount M'Goun. Part of the UNESCO M'Goun Geopark. Reference point: Souk Tabant, the valley's main weekly market.",
+    "lat": 31.6587028,
+    "lng": -6.4334838,
+    "hours": "Villages accessible year-round; some passes affected by winter snow",
+    "images": [
+      "/places/poi-ait-bouguemez/1.jpg",
+      "/places/poi-ait-bouguemez/2.jpg",
+      "/places/poi-ait-bouguemez/3.jpg"
+    ],
+    "source": "Google Maps verified (Souk Tabant reference point)"
+  },
+  {
+    "id": "poi-zaouiat-ahansal",
+    "name": "Zaouiat Ahansal",
+    "category": "village",
+    "description": "A High Atlas village and hiking/canyoning base within the M'Goun Geopark, known for access to dramatic gorge scenery including the rock formation locally called 'La Cathedrale.'",
+    "lat": 31.8331255,
+    "lng": -6.1043336,
+    "hours": "Open year-round; best accessed spring through autumn",
+    "images": [
+      "/places/poi-zaouiat-ahansal/1.jpg"
+    ],
+    "source": "Google Maps verified"
+  },
+  {
+    "id": "poi-aoujgal-granaries",
+    "name": "Greniers d'Aoujgal (Tihouna n'Aoujgal)",
+    "category": "heritage",
+    "description": "Traditional communal granaries built into cliffside terrain from stone and rammed earth - a distinctive regional architectural heritage sometimes described as one of the world's oldest collective storage systems. Dramatic clifftop scenery.",
+    "lat": 32.2981293,
+    "lng": -5.8355152,
+    "hours": "Open year-round, daylight hours",
+    "images": [
+      "/places/poi-aoujgal-granaries/1.jpg",
+      "/places/poi-aoujgal-granaries/2.jpg",
+      "/places/poi-aoujgal-granaries/3.jpg"
+    ],
+    "source": "Google Maps verified"
+  },
+  {
+    "id": "poi-oum-er-rbia-springs",
+    "name": "Sources de l’Oum Er-Rbia",
+    "category": "spring",
+    "description": "Headwaters of Morocco’s Oum Er-Rbia river in the Middle Atlas near Khénifra, with dozens of freshwater and mineral springs cascading from limestone cliffs. A classic picnic and short-walk site inside the wider Aguelmame Azigza / cedar-forest landscape.",
+    "lat": 33.052778,
+    "lng": -5.413889,
+    "hours": "Open year-round, daylight hours",
+    "images": [
+      "/places/poi-oum-er-rbia-springs/1.jpg"
+    ],
+    "source": "Wikimapia / regional tourism references (33°3′10″N 5°24′50″W)"
+  },
+  {
+    "id": "poi-zaouiat-cheikh-tamda",
+    "name": "Sources Zaouiat Cheikh / Parc Tamda",
+    "category": "spring",
+    "description": "Mountain spring complex and landscaped water park near Zaouiat Cheikh (Béni Mellal province), fed by clear natural springs — popular for family outings and weekend recreation.",
+    "lat": 32.6441708,
+    "lng": -5.916589,
+    "hours": "Typically daylight hours; facilities may vary by season",
+    "images": [
+      "/places/poi-zaouiat-cheikh-tamda/1.jpg",
+      "/places/poi-zaouiat-cheikh-tamda/2.jpg",
+      "/places/poi-zaouiat-cheikh-tamda/3.jpg",
+      "/places/poi-zaouiat-cheikh-tamda/4.jpg"
+    ],
+    "source": "Nominatim town center Zaouiat Cheikh — verify park entrance on site"
+  },
+  {
+    "id": "poi-taghbalout",
+    "name": "Parc de Taghbalout (El Ksiba)",
+    "category": "spring",
+    "description": "Shaded pine and cedar setting around natural freshwater pools near Dir El Ksiba / Taghbalout — a cooler escape for walks and picnics in the foothills.",
+    "lat": 32.5522039,
+    "lng": -6.0129631,
+    "hours": "Open year-round, daylight hours",
+    "images": [
+      "/places/poi-taghbalout/1.jpg",
+      "/places/poi-taghbalout/2.jpg",
+      "/places/poi-taghbalout/3.jpg",
+      "/places/poi-taghbalout/4.jpg"
+    ],
+    "source": "Nominatim Taghbalout, RN12 / Dir El Ksiba"
+  },
+  {
+    "id": "poi-assif-ahansal",
+    "name": "Assif Ahansal (river corridor)",
+    "category": "river",
+    "description": "Major High Atlas mountain river corridor used for white-water kayaking, rafting, riverside camping, and approaches into Zaouiat Ahansal country. Conditions depend heavily on season and water levels — go with local operators.",
+    "lat": 31.9082587,
+    "lng": -6.0933353,
+    "hours": "Seasonal outdoor access; guide recommended for water sports",
+    "images": [
+      "/places/poi-assif-ahansal/1.jpg",
+      "/places/poi-assif-ahansal/2.jpg",
+      "/places/poi-assif-ahansal/4.jpg"
+    ],
+    "source": "Nominatim Assif Ahansal near Zaouiat Ahansal"
+  },
+  {
+    "id": "poi-ain-kbi",
+    "name": "Aïn Kbi (Fquih Ben Salah)",
+    "category": "spring",
+    "description": "Quiet natural spring oasis with palm shade on the Tadla plain near Fquih Ben Salah — a local picnic and refreshment stop rather than a major tourist complex.",
+    "lat": 32.505,
+    "lng": -6.695,
+    "hours": "Daylight hours",
+    "images": [
+      "/places/poi-ain-kbi/1.jpg",
+      "/places/poi-ain-kbi/2.jpg",
+      "/places/poi-ain-kbi/3.jpg",
+      "/places/poi-ain-kbi/4.jpg"
+    ],
+    "source": "approximate — near Fquih Ben Salah; confirm spring access locally"
+  },
+  {
+    "id": "poi-aguelmame-sidi-ali",
+    "name": "Aguelmame Sidi Ali",
+    "category": "lake",
+    "description": "High-altitude volcanic / karst lake on the Khénifra–Ifrane side of the Middle Atlas, known for tranquil mountain scenery and birdwatching. Cooler climate; pack layers.",
+    "lat": 33.073662,
+    "lng": -4.9954392,
+    "hours": "Open year-round; best late spring to autumn",
+    "images": [
+      "/places/poi-aguelmame-sidi-ali/1.jpg"
+    ],
+    "source": "Nominatim Lac Aguelmame Sidi Ali"
+  },
+  {
+    "id": "poi-tigelmamine",
+    "name": "Lacs de Tigelmamine / Ouiouane",
+    "category": "lake",
+    "description": "Twin natural lakes in the Middle Atlas forest near Oum Rabia / Aguelmous country — often nicknamed the “eyes” of the Khénifra highlands. Quiet setting for walks and photography.",
+    "lat": 33.1322207,
+    "lng": -5.3435877,
+    "hours": "Open year-round, daylight hours",
+    "images": [
+      "/places/poi-tigelmamine/1.jpg",
+      "/places/poi-tigelmamine/2.jpg",
+      "/places/poi-tigelmamine/3.jpg",
+      "/places/poi-tigelmamine/4.jpg"
+    ],
+    "source": "Nominatim Lac Ouiouane (Tigelmamine twin-lakes area)"
+  },
+  {
+    "id": "poi-tamda-lake-azilal",
+    "name": "Lac Tamda (Azilal / Anmiter area)",
+    "category": "lake",
+    "description": "High-altitude alpine lake in the Azilal High Atlas, typically reached by scenic trekking paths near Anmiter / Aït Bouguemez approaches. Remote — plan daylight returns.",
+    "lat": 31.62,
+    "lng": -6.48,
+    "hours": "Daylight; trek access only in good weather",
+    "images": [
+      "/places/poi-tamda-lake-azilal/1.jpg",
+      "/places/poi-tamda-lake-azilal/2.jpg",
+      "/places/poi-tamda-lake-azilal/3.jpg",
+      "/places/poi-tamda-lake-azilal/4.jpg"
+    ],
+    "source": "approximate — High Atlas lake near Aït Bouguemez approaches; verify trailhead"
+  },
+  {
+    "id": "poi-mgoun-peak",
+    "name": "Jebel M’Goun (Ighil M’Goun)",
+    "category": "peak",
+    "description": "One of the High Atlas’s ultra-prominent summits at about 4,071 m — a multi-day trekking objective from the M’Goun / Aït Bouguemez side. Requires mountain experience or a certified guide.",
+    "lat": 31.50833,
+    "lng": -6.44333,
+    "hours": "Seasonal mountaineering; summer–early autumn preferred",
+    "images": [
+      "/places/poi-mgoun-peak/1.jpg",
+      "/places/poi-mgoun-peak/2.jpg",
+      "/places/poi-mgoun-peak/3.jpg"
+    ],
+    "source": "Wikipedia / Peaklist coordinates"
+  },
+  {
+    "id": "poi-imsfrane-cathedral",
+    "name": "Cathédrale d’Imsfrane (Amsafrane)",
+    "category": "geology",
+    "description": "Massive sheer rock wall near Tilougguite / Ouawizeght country, often compared to a gothic cathedral façade. Popular for hiking viewpoints and climbing with local partners.",
+    "lat": 31.9827289,
+    "lng": -6.1329576,
+    "hours": "Daylight; climbing only with qualified guides",
+    "images": [
+      "/places/poi-imsfrane-cathedral/1.jpg",
+      "/places/poi-imsfrane-cathedral/2.jpg",
+      "/places/poi-imsfrane-cathedral/3.jpg"
+    ],
+    "source": "Nominatim Cathédrale d’Imsfrane (Amsafrane)"
+  },
+  {
+    "id": "poi-tissilit-gorges",
+    "name": "Gorges de Tissilit",
+    "category": "gorge",
+    "description": "Dramatic river canyon in Azilal province used for canyoning, climbing, and wild scenery day trips. Access and difficulty vary with water levels — hire local canyon guides.",
+    "lat": 31.85,
+    "lng": -6.15,
+    "hours": "Seasonal; guide strongly recommended",
+    "images": [
+      "/places/poi-tissilit-gorges/1.jpg",
+      "/places/poi-tissilit-gorges/2.jpg",
+      "/places/poi-tissilit-gorges/3.jpg",
+      "/places/poi-tissilit-gorges/4.jpg"
+    ],
+    "source": "approximate — Azilal canyon country near Ahansal approaches"
+  },
+  {
+    "id": "poi-ahouli-mibladen",
+    "name": "Vallées d’Ahouli & Mibladen",
+    "category": "gorge",
+    "description": "Rugged red-rock gorges and former mining settlements on the Midelt side of the Atlas, historically linked to regional lead/silver mining. Photogenic canyons; check road conditions.",
+    "lat": 32.8269124,
+    "lng": -4.5727666,
+    "hours": "Daylight; remote roads",
+    "images": [
+      "/places/poi-ahouli-mibladen/1.jpg",
+      "/places/poi-ahouli-mibladen/2.jpg"
+    ],
+    "source": "Nominatim Aouli / Mibladen (Midelt border of the wider region)"
+  },
+  {
+    "id": "poi-iouaridene-tracks",
+    "name": "Empreintes de dinosaures d’Iouaridène",
+    "category": "geology",
+    "description": "Famous Jurassic dinosaur trackways in red continental sandstones near Demnate, within the M’Goun UNESCO Global Geopark — theropod and sauropod prints protected with walkways and panels.",
+    "lat": 31.76667,
+    "lng": -6.58333,
+    "hours": "Daylight; stay on marked paths to protect the prints",
+    "images": [
+      "/places/poi-iouaridene-tracks/1.jpg",
+      "/places/poi-iouaridene-tracks/2.jpg",
+      "/places/poi-iouaridene-tracks/3.jpg"
+    ],
+    "source": "Geopark / scientific literature approximate site location near Demnate"
+  },
+  {
+    "id": "poi-mastfrane-folds",
+    "name": "Plis / formations de Mastfrane (Tillouguit)",
+    "category": "geology",
+    "description": "Striking folded sedimentary rock layers visible in the Tillouguit / Ouawizeght foothills — a roadside and short-hike geology highlight of the Central High Atlas.",
+    "lat": 31.99,
+    "lng": -6.14,
+    "hours": "Daylight viewpoints",
+    "images": [
+      "/places/poi-mastfrane-folds/1.jpg",
+      "/places/poi-mastfrane-folds/2.jpg",
+      "/places/poi-mastfrane-folds/3.jpg",
+      "/places/poi-mastfrane-folds/4.jpg"
+    ],
+    "source": "approximate — near Imsfrane / Tillouguit geology corridor"
+  },
+  {
+    "id": "poi-kasbah-bel-kush",
+    "name": "Kasbah Bel-Kush (Fquih Ben Salah)",
+    "category": "heritage",
+    "description": "Historic citadel associated with 18th-century trade-route defenses on the Tadla plain at Fquih Ben Salah. Exterior viewing is the usual visit; interior access may be limited.",
+    "lat": 32.504,
+    "lng": -6.69,
+    "hours": "Exterior year-round; interior access varies",
+    "images": [
+      "/places/poi-kasbah-bel-kush/1.jpg",
+      "/places/poi-kasbah-bel-kush/2.jpg",
+      "/places/poi-kasbah-bel-kush/3.jpg",
+      "/places/poi-kasbah-bel-kush/4.jpg"
+    ],
+    "source": "approximate — Fquih Ben Salah urban kasbah; confirm access"
+  },
+  {
+    "id": "poi-kasbah-moha-hammou",
+    "name": "Kasbah Moha ou Hammou Zayani (Khénifra)",
+    "category": "heritage",
+    "description": "Historic Amazigh stronghold in Khénifra linked to resistance leader Moha ou Hammou Zayani. Part of the city’s heritage circuit along the Oum Er-Rbia corridor.",
+    "lat": 32.935,
+    "lng": -5.668,
+    "hours": "Exterior accessible; guided visits when available",
+    "images": [
+      "/places/poi-kasbah-moha-hammou/1.jpg",
+      "/places/poi-kasbah-moha-hammou/2.jpg",
+      "/places/poi-kasbah-moha-hammou/3.jpg"
+    ],
+    "source": "approximate — Khénifra historic kasbah district"
+  },
+  {
+    "id": "poi-agadir-ait-bouguemez",
+    "name": "Agadir n’Aït Bouguemez (Sidi Chita)",
+    "category": "heritage",
+    "description": "Hilltop fortified communal granary (agadir) overlooking the Happy Valley, with wide 360° views over terraced fields and villages. Combine with a valley cultural walk.",
+    "lat": 31.68,
+    "lng": -6.45,
+    "hours": "Daylight; ask locally before entering private compounds",
+    "images": [
+      "/places/poi-agadir-ait-bouguemez/1.jpg",
+      "/places/poi-agadir-ait-bouguemez/2.jpg",
+      "/places/poi-agadir-ait-bouguemez/3.jpg",
+      "/places/poi-agadir-ait-bouguemez/4.jpg"
+    ],
+    "source": "approximate — Sidi Chita / Aït Bouguemez granary viewpoints"
+  },
+  {
+    "id": "poi-zaouia-sidi-hamza",
+    "name": "Zaouia de Sidi Hamza (Azilal)",
+    "category": "heritage",
+    "description": "Traditional spiritual center in the Azilal Atlas, historically associated with scholarship and manuscript heritage. Visit respectfully; photography rules may apply.",
+    "lat": 31.9,
+    "lng": -6.4,
+    "hours": "Respect prayer times; ask permission to enter",
+    "images": [
+      "/places/poi-zaouia-sidi-hamza/1.jpg",
+      "/places/poi-zaouia-sidi-hamza/2.jpg",
+      "/places/poi-zaouia-sidi-hamza/3.jpg",
+      "/places/poi-zaouia-sidi-hamza/4.jpg"
+    ],
+    "source": "approximate — Azilal Atlas zaouia; confirm village approach"
+  },
+  {
+    "id": "poi-ajdir-plateau",
+    "name": "Plateau d’Ajdir & cédraie",
+    "category": "nature",
+    "description": "High Middle Atlas forest plateau of Atlas cedar and oak near the Khénifra–Azrou approaches, habitat for Barbary macaques. Cool air; great for scenic drives and short forest walks.",
+    "lat": 33.02,
+    "lng": -5.35,
+    "hours": "Daylight; watch for livestock and wildlife on roads",
+    "images": [
+      "/places/poi-ajdir-plateau/1.jpg",
+      "/places/poi-ajdir-plateau/2.jpg",
+      "/places/poi-ajdir-plateau/3.jpg",
+      "/places/poi-ajdir-plateau/4.jpg"
+    ],
+    "source": "approximate — Ajdir / Oum Rabia forest plateau corridor"
+  },
+  {
+    "id": "poi-parc-el-ochaq",
+    "name": "Parc El Ochaq (Khénifra)",
+    "category": "park",
+    "description": "Central landscaped city park in Khénifra with streams, plantings, and local gathering spaces — a soft urban break between mountain day trips.",
+    "lat": 32.9395,
+    "lng": -5.6675,
+    "hours": "Typically open daytime; evenings vary",
+    "images": [
+      "/places/poi-parc-el-ochaq/1.jpg",
+      "/places/poi-parc-el-ochaq/2.jpg",
+      "/places/poi-parc-el-ochaq/3.jpg",
+      "/places/poi-parc-el-ochaq/4.jpg"
+    ],
+    "source": "approximate — Khénifra city park (Parc El Ochaq / Lovers’ Park)"
+  },
+  {
+    "id": "poi-khouribga-phosphate",
+    "name": "Khouribga — patrimoine minier des phosphates",
+    "category": "heritage",
+    "description": "Industrial and cultural landscape of Morocco’s phosphate industry around Khouribga, with open-pit heritage and urban visitor points that explain the region’s mining story. Pair with local museums / guided industry visits when available.",
+    "lat": 32.8856482,
+    "lng": -6.908798,
+    "hours": "Urban sites vary; industrial zones are restricted",
+    "images": [
+      "/places/poi-khouribga-phosphate/1.jpg",
+      "/places/poi-khouribga-phosphate/2.jpg",
+      "/places/poi-khouribga-phosphate/3.jpg",
+      "/places/poi-khouribga-phosphate/4.jpg"
+    ],
+    "source": "Nominatim Khouribga — do not enter active mine sites"
+  },
+  {
+    "id": "poi-oued-zem-lake",
+    "name": "Lac / parc central d’Oued Zem",
+    "category": "park",
+    "description": "Historic city park organized around a large artificial lake created in the early 20th century — a local leisure landmark between Khouribga and the Tadla corridor.",
+    "lat": 32.8595417,
+    "lng": -6.5702485,
+    "hours": "Daytime public access",
+    "images": [
+      "/places/poi-oued-zem-lake/1.jpg",
+      "/places/poi-oued-zem-lake/2.jpg",
+      "/places/poi-oued-zem-lake/3.jpg",
+      "/places/poi-oued-zem-lake/4.jpg"
+    ],
+    "source": "Nominatim Rue de Lac, Oued Zem"
+  },
+  {
+    "id": "poi-marche-central-beni-mellal",
+    "name": "Marché central & vieux quartier (Béni Mellal)",
+    "category": "market",
+    "description": "Vibrant central market and old-quarter streets of Béni Mellal for regional spices, olive oil, citrus, and traditional textiles. Go early; bargain politely; keep valuables secure in crowds.",
+    "lat": 32.3372,
+    "lng": -6.3498,
+    "hours": "Morning peak; many stalls close midday Friday prayer",
+    "images": [
+      "/places/poi-marche-central-beni-mellal/1.jpg",
+      "/places/poi-marche-central-beni-mellal/2.jpg",
+      "/places/poi-marche-central-beni-mellal/3.jpg",
+      "/places/poi-marche-central-beni-mellal/4.jpg"
+    ],
+    "source": "approximate — Béni Mellal central market / medina district"
+  },
+  {
+    "id": "poi-musee-azilal",
+    "name": "Musée d’Azilal (Géoparc M’Goun)",
+    "category": "museum",
+    "description": "National museums network site in Azilal dedicated to earth sciences and the M’Goun UNESCO Global Geopark. Circular “Temple of Knowledge” trail with fossils, minerals, regional biodiversity, and the Atlasaurus dinosaur display. Address: Avenue Hassan II, administrative quarter, Azilal.",
+    "lat": 31.9615,
+    "lng": -6.5698,
+    "hours": "Check FNM / local hours — typically daytime; closed some Mondays",
+    "images": [
+      "/places/poi-musee-azilal/1.jpg",
+      "/places/poi-musee-azilal/2.jpg",
+      "/places/poi-musee-azilal/3.jpg",
+      "/places/poi-musee-azilal/4.jpg"
+    ],
+    "source": "FNM Musée d’Azilal — Avenue Hassan II, Azilal"
+  },
+  {
+    "id": "poi-cip-ain-asserdoun",
+    "name": "CIP / Musée d’Aïn Asserdoun",
+    "category": "museum",
+    "description": "Centre d’Interprétation du Patrimoine in the Aïn Asserdoun gardens (Béni Mellal): digital and physical exhibits on regional nature, archaeology, Amazigh architecture (igherman), crafts, costumes, and performing arts (Ahwach / Ahidous). Pair with the terraced spring gardens just outside.",
+    "lat": 32.3254,
+    "lng": -6.3362,
+    "hours": "Daytime museum hours; ticketed — check ministry culture e-services",
+    "images": [
+      "/places/poi-cip-ain-asserdoun/1.jpg",
+      "/places/poi-cip-ain-asserdoun/2.jpg",
+      "/places/poi-cip-ain-asserdoun/3.jpg"
+    ],
+    "source": "Ministère de la Culture — CIP Ain Assardoun (approx. garden complex)"
+  },
+  {
+    "id": "poi-musee-resistance-bm",
+    "name": "Espace de la Mémoire (Résistance & Libération) — Béni Mellal",
+    "category": "museum",
+    "description": "Local history museum dedicated to the region’s role in Morocco’s resistance and independence struggle, with photographs, documents, and artifacts. A focused cultural stop in Béni Mellal city.",
+    "lat": 32.3395,
+    "lng": -6.3605,
+    "hours": "Weekday daytime hours — confirm locally before visiting",
+    "images": [
+      "/places/poi-musee-resistance-bm/1.jpg",
+      "/places/poi-musee-resistance-bm/2.jpg",
+      "/places/poi-musee-resistance-bm/3.jpg"
+    ],
+    "source": "approximate — Béni Mellal urban cultural district"
+  },
+  {
+    "id": "poi-maison-geoparc-bouguemez",
+    "name": "Maison du Géoparc — Aït Bouguemez",
+    "category": "museum",
+    "description": "Geopark visitor house in the Happy Valley: orientation to M’Goun geosites, local culture, and hiking options. Useful first stop before multi-day treks in Aït Bouguemez.",
+    "lat": 31.66111,
+    "lng": -6.44375,
+    "hours": "Seasonal / daytime — ask in Tabant or at the house",
+    "images": [
+      "/places/poi-maison-geoparc-bouguemez/1.jpg",
+      "/places/poi-maison-geoparc-bouguemez/2.jpg",
+      "/places/poi-maison-geoparc-bouguemez/3.jpg",
+      "/places/poi-maison-geoparc-bouguemez/4.jpg"
+    ],
+    "source": "M’Goun Geopark houses network — Aït Bouguemez (approx. valley center)"
+  },
+  {
+    "id": "poi-maison-geoparc-ahansal",
+    "name": "Maison du Géoparc — Zaouiat Ahansal",
+    "category": "museum",
+    "description": "Geopark interpretation house serving the Ahansal corridor: canyon access info, village heritage, and trail orientation for visitors exploring gorges and climbing areas.",
+    "lat": 31.85,
+    "lng": -6.133,
+    "hours": "Seasonal / daytime — confirm on arrival",
+    "images": [
+      "/places/poi-maison-geoparc-ahansal/1.jpg",
+      "/places/poi-maison-geoparc-ahansal/2.jpg",
+      "/places/poi-maison-geoparc-ahansal/3.jpg",
+      "/places/poi-maison-geoparc-ahansal/4.jpg"
+    ],
+    "source": "M’Goun Geopark houses — Zaouiat Ahansal (approx.)"
+  },
+  {
+    "id": "poi-maison-geoparc-iouaridene",
+    "name": "Maison du Géoparc — Iouaridène",
+    "category": "museum",
+    "description": "Geopark house near the famous dinosaur trackways of Iouaridène (Demnate side): context for Jurassic footprints and responsible visiting of geosites.",
+    "lat": 31.77,
+    "lng": -6.59,
+    "hours": "Daytime when staffed — combine with the trackway visit",
+    "images": [
+      "/places/poi-maison-geoparc-iouaridene/1.jpg",
+      "/places/poi-maison-geoparc-iouaridene/2.jpg",
+      "/places/poi-maison-geoparc-iouaridene/3.jpg"
+    ],
+    "source": "M’Goun Geopark houses — Iouaridène (approx. near trackways)"
+  },
+  {
+    "id": "poi-parc-municipal-bm",
+    "name": "Parc municipal de Béni Mellal",
+    "category": "park",
+    "description": "Central urban green space in Béni Mellal for evening walks, family outings, and a soft break between heritage and mountain day trips. Shaded paths and local gathering spots.",
+    "lat": 32.3378,
+    "lng": -6.3535,
+    "hours": "Open year-round, typically daylight to evening",
+    "images": [
+      "/places/poi-parc-municipal-bm/1.jpg",
+      "/places/poi-parc-municipal-bm/2.jpg",
+      "/places/poi-parc-municipal-bm/3.jpg",
+      "/places/poi-parc-municipal-bm/4.jpg"
+    ],
+    "source": "approximate — Béni Mellal city park / public garden area"
+  },
+  {
+    "id": "poi-jardin-oliviers-bm",
+    "name": "Vergers & oliveraies périurbaines (Béni Mellal)",
+    "category": "park",
+    "description": "Olive grove belts surrounding Béni Mellal that act as informal green parks — cool walks and rural scenery at the foot of the Middle Atlas, especially pleasant in late afternoon.",
+    "lat": 32.318,
+    "lng": -6.37,
+    "hours": "Daylight; respect private orchard access",
+    "images": [
+      "/places/poi-jardin-oliviers-bm/1.jpg",
+      "/places/poi-jardin-oliviers-bm/2.jpg",
+      "/places/poi-jardin-oliviers-bm/3.jpg",
+      "/places/poi-jardin-oliviers-bm/4.jpg"
+    ],
+    "source": "approximate — olive belt southwest of Béni Mellal"
+  },
+  {
+    "id": "poi-parc-ain-asserdoun-botanique",
+    "name": "Jardins botaniques d’Aïn Asserdoun",
+    "category": "park",
+    "description": "Terraced botanical gardens around the Aïn Asserdoun spring complex: roses, fruit trees, shaded picnic lawns, and paths linking the spring pools to the hilltop kasbah and CIP museum.",
+    "lat": 32.3249,
+    "lng": -6.3354,
+    "hours": "Aligned with Ain Asserdoun garden access (often 9:00–17:00)",
+    "images": [
+      "/places/poi-parc-ain-asserdoun-botanique/1.jpg",
+      "/places/poi-parc-ain-asserdoun-botanique/2.jpg",
+      "/places/poi-parc-ain-asserdoun-botanique/3.jpg",
+      "/places/poi-parc-ain-asserdoun-botanique/4.jpg"
+    ],
+    "source": "Aïn Asserdoun garden complex — distinct from the spring pools POI"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "poiId": "poi-kasbah-tadla",
+  "note": "Wikimedia Commons HQ photos for famous places.",
+  "downloadedAt": "2026-07-24T11:40:51.211Z",
+  "files": [
+    {
+      "file": "1.jpg",
+      "commons": "File:Kasba Tadla.jpg",
+      "bytes": 331493,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Kasba_Tadla.jpg/1920px-Kasba_Tadla.jpg"
+    },
+    {
+      "file": "2.jpg",
+      "commons": "File:KasbaTadla,Kasba1.jpg",
+      "bytes": 307843,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/KasbaTadla%2CKasba1.jpg"
+    }
+  ]
+}

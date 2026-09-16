@@ -1,0 +1,25 @@
+{
+  "poiId": "poi-ait-bouguemez",
+  "note": "Wikimedia Commons HQ photos for famous places.",
+  "downloadedAt": "2026-07-24T11:22:26.092Z",
+  "files": [
+    {
+      "file": "1.jpg",
+      "commons": "File:Tabant, Ait Bougmez, Maroc.jpg",
+      "bytes": 1130446,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Tabant%2C_Ait_Bougmez%2C_Maroc.jpg/1920px-Tabant%2C_Ait_Bougmez%2C_Maroc.jpg"
+    },
+    {
+      "file": "2.jpg",
+      "commons": "File:Ait bougemaz.jpg",
+      "bytes": 356404,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Ait_bougemaz.jpg/1920px-Ait_bougemaz.jpg"
+    },
+    {
+      "file": "3.jpg",
+      "commons": "File:Aguerd n ouzrou.JPG",
+      "bytes": 127174,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Aguerd_n_ouzrou.JPG"
+    }
+  ]
+}

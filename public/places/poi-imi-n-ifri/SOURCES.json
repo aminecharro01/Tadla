@@ -1,0 +1,25 @@
+{
+  "poiId": "poi-imi-n-ifri",
+  "note": "Wikimedia Commons HQ photos for famous places.",
+  "downloadedAt": "2026-07-24T11:21:59.384Z",
+  "files": [
+    {
+      "file": "1.jpg",
+      "commons": "File:Imi n Ifri (ⵉⵎⵉ ⵏ ⵉⴼⵔⵉ riscrît avou n aplaké a ifri).jpg",
+      "bytes": 329207,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Imi_n_Ifri_%28%E2%B5%89%E2%B5%8E%E2%B5%89_%E2%B5%8F_%E2%B5%89%E2%B4%BC%E2%B5%94%E2%B5%89_riscr%C3%AEt_avou_n_aplak%C3%A9_a_ifri%29.jpg/1920px-Imi_n_Ifri_%28%E2%B5%89%E2%B5%8E%E2%B5%89_%E2%B5%8F_%E2%B5%89%E2%B4%BC%E2%B5%94%E2%B5%89_riscr%C3%AEt_avou_n_aplak%C3%A9_a_ifri%29.jpg"
+    },
+    {
+      "file": "2.jpg",
+      "commons": "File:Imi n Ifri ⵉⵎⵉ ⵏ ⵉⴼⵔⵉ dizeu do trô.jpg",
+      "bytes": 858568,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Imi_n_Ifri_%E2%B5%89%E2%B5%8E%E2%B5%89_%E2%B5%8F_%E2%B5%89%E2%B4%BC%E2%B5%94%E2%B5%89_dizeu_do_tr%C3%B4.jpg/1920px-Imi_n_Ifri_%E2%B5%89%E2%B5%8E%E2%B5%89_%E2%B5%8F_%E2%B5%89%E2%B4%BC%E2%B5%94%E2%B5%89_dizeu_do_tr%C3%B4.jpg"
+    },
+    {
+      "file": "3.jpg",
+      "commons": "File:Imi n Ifri ⵉⵎⵉ ⵏ ⵉⴼⵔⵉ pont foû-wåde.jpg",
+      "bytes": 558116,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Imi_n_Ifri_%E2%B5%89%E2%B5%8E%E2%B5%89_%E2%B5%8F_%E2%B5%89%E2%B4%BC%E2%B5%94%E2%B5%89_pont_fo%C3%BB-w%C3%A5de.jpg/1920px-Imi_n_Ifri_%E2%B5%89%E2%B5%8E%E2%B5%89_%E2%B5%8F_%E2%B5%89%E2%B4%BC%E2%B5%94%E2%B5%89_pont_fo%C3%BB-w%C3%A5de.jpg"
+    }
+  ]
+}

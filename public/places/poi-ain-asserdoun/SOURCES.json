@@ -1,0 +1,25 @@
+{
+  "poiId": "poi-ain-asserdoun",
+  "note": "Wikimedia Commons HQ photos for famous places.",
+  "downloadedAt": "2026-07-24T11:21:15.734Z",
+  "files": [
+    {
+      "file": "1.jpg",
+      "commons": "File:Ain asserdoun Béni Mellal.jpg",
+      "bytes": 794142,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Ain_asserdoun_B%C3%A9ni_Mellal.jpg/1920px-Ain_asserdoun_B%C3%A9ni_Mellal.jpg"
+    },
+    {
+      "file": "2.jpg",
+      "commons": "File:Ain Asserdoun in Beni Mellal from above.jpg",
+      "bytes": 1302591,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ain_Asserdoun_in_Beni_Mellal_from_above.jpg/1920px-Ain_Asserdoun_in_Beni_Mellal_from_above.jpg"
+    },
+    {
+      "file": "3.jpg",
+      "commons": "File:Ain asserdoun Béni Mellal.jpg",
+      "bytes": 794142,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Ain_asserdoun_B%C3%A9ni_Mellal.jpg/1920px-Ain_asserdoun_B%C3%A9ni_Mellal.jpg"
+    }
+  ]
+}

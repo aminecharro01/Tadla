@@ -1,0 +1,76 @@
+[
+  {
+    "id": "trip-ouzoud-day-escape",
+    "guideId": "seed-guide-demo",
+    "guideName": "Youssef (demo guide)",
+    "title": "Ouzoud Falls Day Escape",
+    "description": "A full day at Morocco's most famous waterfalls: walk down the olive-grove path, boat ride under the falls, lunch with a view, and meet the Barbary macaques.",
+    "price": 350,
+    "maxGroupSize": 10,
+    "coverImage": "/samples/trips/ouzoud.jpg",
+    "days": [
+      { "day": 1, "poiIds": ["poi-ouzoud-falls", "poi-imi-n-ifri"] }
+    ],
+    "availableDates": []
+  },
+  {
+    "id": "trip-lakes-kasbahs-2d",
+    "guideId": "seed-guide-demo",
+    "guideName": "Youssef (demo guide)",
+    "title": "Lakes & Kasbahs — 2 Days",
+    "description": "Turquoise water and hilltop forts: Bin El Ouidane lake, boat trip, sunset from the dam, then Aïn Asserdoun spring and the kasbah above Béni Mellal.",
+    "price": 900,
+    "maxGroupSize": 8,
+    "coverImage": "/samples/trips/lakes.jpg",
+    "days": [
+      { "day": 1, "poiIds": ["poi-bin-el-ouidane"] },
+      { "day": 2, "poiIds": ["poi-ain-asserdoun", "poi-kasbah-ras-el-ain"] }
+    ],
+    "availableDates": []
+  },
+  {
+    "id": "trip-happy-valley-trek",
+    "guideId": "seed-guide-demo-2",
+    "guideName": "Fatima (demo guide)",
+    "title": "Happy Valley Trek — Aït Bouguemez",
+    "description": "3 days of gentle trekking between Amazigh villages, granaries, and green fields in the Aït Bouguemez valley, with nights in family guesthouses.",
+    "price": 1600,
+    "maxGroupSize": 6,
+    "coverImage": "/samples/trips/valley.jpg",
+    "days": [
+      { "day": 1, "poiIds": ["poi-ait-bouguemez"] },
+      { "day": 2, "poiIds": ["poi-agadir-ait-bouguemez"] },
+      { "day": 3, "poiIds": ["poi-imsfrane-cathedral"] }
+    ],
+    "availableDates": []
+  },
+  {
+    "id": "trip-cedar-lakes-khenifra",
+    "guideId": "seed-guide-demo-2",
+    "guideName": "Fatima (demo guide)",
+    "title": "Cedar Forests & Mountain Lakes",
+    "description": "Discover the Khénifra National Park side of the region: Aguelmame Azigza lake, the Oum Er-Rbia springs, and a picnic under the cedars.",
+    "price": 700,
+    "maxGroupSize": 8,
+    "coverImage": "/samples/trips/cedar.jpg",
+    "days": [
+      { "day": 1, "poiIds": ["poi-aguelmame-azigza", "poi-oum-er-rbia-springs"] },
+      { "day": 2, "poiIds": ["poi-khenifra-national-park"] }
+    ],
+    "availableDates": []
+  },
+  {
+    "id": "trip-dinosaur-geopark",
+    "guideId": "seed-guide-demo",
+    "guideName": "Youssef (demo guide)",
+    "title": "Dinosaur Tracks & Geopark Day",
+    "description": "A family-friendly geology day: real dinosaur footprints at Iouaridène, the natural bridge of Imi n'Ifri, and the M'Goun Geopark house.",
+    "price": 420,
+    "maxGroupSize": 12,
+    "coverImage": "/samples/trips/geopark.jpg",
+    "days": [
+      { "day": 1, "poiIds": ["poi-iouaridene-tracks", "poi-imi-n-ifri", "poi-maison-geoparc-bouguemez"] }
+    ],
+    "availableDates": []
+  }
+]

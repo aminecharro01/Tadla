@@ -1,0 +1,19 @@
+{
+  "poiId": "poi-ahouli-mibladen",
+  "note": "Wikimedia Commons free-licensed photos verified for this place. NOT scraped from TripAdvisor / Airbnb / Booking (copyright).",
+  "downloadedAt": "2026-07-23T23:33:35.892Z",
+  "files": [
+    {
+      "file": "1.jpg",
+      "commons": "File:Ahouli mines, midelt.jpg",
+      "bytes": 952934,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Ahouli_mines%2C_midelt.jpg/1920px-Ahouli_mines%2C_midelt.jpg"
+    },
+    {
+      "file": "2.jpg",
+      "commons": "File:Miners' town, Ahouli.jpg",
+      "bytes": 879850,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Miners%27_town%2C_Ahouli.jpg/1920px-Miners%27_town%2C_Ahouli.jpg"
+    }
+  ]
+}

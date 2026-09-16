@@ -1,0 +1,2363 @@
+<!-- Design System -->
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Tanmiya Explorer | Discover Beni Mellal–Khenifra</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700;800&amp;family=Hanken+Grotesk:wght@400;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        /* Zellige-inspired subtle pattern overlay - updated opacity for new theme */
+        .zellige-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 0l5 15h15l-12 9 5 16-13-10-13 10 5-16-12-9h15z' fill='%23006875' fill-opacity='0.02' fill-rule='evenodd'/%3E%3C/svg%3E");
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error": "#ffffff",
+                        "inverse-on-surface": "#eff1f2",
+                        "background": "#f8fafb",
+                        "on-tertiary-fixed-variant": "#464747",
+                        "on-background": "#191c1d",
+                        "on-primary": "#ffffff",
+                        "secondary-container": "#c0e7ed",
+                        "on-secondary-container": "#44686e",
+                        "inverse-surface": "#2e3132",
+                        "tertiary-container": "#d1d0d0",
+                        "inverse-primary": "#00daf3",
+                        "tertiary-fixed-dim": "#c7c6c6",
+                        "surface": "#f8fafb",
+                        "surface-container-low": "#f2f4f5",
+                        "outline-variant": "#bac9cc",
+                        "on-surface-variant": "#3b494c",
+                        "outline": "#6b7a7d",
+                        "on-primary-fixed-variant": "#004f58",
+                        "on-tertiary": "#ffffff",
+                        "surface-bright": "#f8fafb",
+                        "on-primary-fixed": "#001f24",
+                        "surface-variant": "#e1e3e4",
+                        "error-container": "#ffdad6",
+                        "on-primary-container": "#00626e",
+                        "secondary-fixed": "#c3e9f0",
+                        "on-secondary-fixed-variant": "#274c51",
+                        "surface-dim": "#d8dadb",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary": "#40646a",
+                        "tertiary-fixed": "#e4e2e2",
+                        "tertiary": "#5e5e5e",
+                        "on-secondary": "#ffffff",
+                        "surface-container": "#eceeef",
+                        "primary-fixed": "#9cf0ff",
+                        "primary": "#006875",
+                        "on-tertiary-container": "#595959",
+                        "error": "#ba1a1a",
+                        "primary-fixed-dim": "#00daf3",
+                        "primary-container": "#00e5ff",
+                        "on-secondary-fixed": "#001f23",
+                        "on-surface": "#191c1d",
+                        "surface-container-high": "#e6e8e9",
+                        "surface-container-highest": "#e1e3e4",
+                        "secondary-fixed-dim": "#a7cdd3",
+                        "on-tertiary-fixed": "#1b1c1c",
+                        "on-error-container": "#93000a",
+                        "surface-tint": "#006875"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "container-max": "1280px",
+                        "margin-desktop": "64px",
+                        "margin-mobile": "20px",
+                        "unit": "8px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Bricolage Grotesque"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "label-sm": ["Hanken Grotesk"],
+                        "headline-md": ["Bricolage Grotesque"],
+                        "body-sm": ["Hanken Grotesk"],
+                        "headline-lg": ["Bricolage Grotesque"],
+                        "label-md": ["Hanken Grotesk"],
+                        "headline-sm": ["Bricolage Grotesque"],
+                        "headline-xl": ["Bricolage Grotesque"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "label-sm": ["12px", {"lineHeight": "1", "letterSpacing": "0.02em", "fontWeight": "600"}],
+                        "headline-md": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                        "headline-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                        "label-md": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "headline-sm": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                        "headline-xl": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}]
+                    }
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background font-body-md text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant/10">
+<div class="flex justify-between items-center px-gutter py-4 max-w-container-max mx-auto">
+<div class="flex items-center gap-8">
+<h1 class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight">Tanmiya Explorer</h1>
+<div class="hidden md:flex gap-6 items-center">
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-body-md text-body-md" href="#">Discover</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="#">Plan</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="#">Trips</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="#">Artisans</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden lg:flex items-center gap-2 px-4 py-2 rounded-xl bg-surface-container-high text-on-surface-variant hover:bg-surface-variant transition-all active:scale-95">
+<span class="material-symbols-outlined text-[20px]">explore</span>
+<span class="font-label-md text-label-md">Guide Mode</span>
+</button>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-xl font-label-md text-label-md hover:shadow-lg hover:shadow-primary/20 transition-all active:scale-95">
+                Sign In
+            </button>
+</div>
+</div>
+</nav>
+<main class="pt-[72px] h-screen flex flex-col md:flex-row overflow-hidden">
+<!-- Interactive Map Section (Left) -->
+<section class="relative flex-1 h-[409px] md:h-full bg-surface-container-low">
+<div class="absolute inset-0 z-0">
+<!-- Map Placeholder -->
+<div class="w-full h-full grayscale-[0.1] contrast-[1.05] brightness-[1.0]" data-location="Beni Mellal, Morocco">
+<img class="w-full h-full object-cover" data-alt="A stylized, high-contrast interactive satellite map of the Beni Mellal–Khenifra region in Morocco." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrdV6610rYMO39Xi8PdWQppwXxcCOxZrtTu-QMrAPJvRxdSWMJxXZkVJ0tQzw38yz4jAB6Ggn6I56OPj4V5KQQdT9J_OoPAtSWekA-rFXiLTEZLOXsmyk18IpIqrsI_cUj8AaT_rl94JMN_PQwkSCVX3ZA3GnosuVSKvv5R8r9SiXeQdCDXafiKdrmwvHIj1V0PvFgOgqFZGcYhZJWrz9dUViunezQSV32BVdnwFmeEqT-LXFo_Sn8"/>
+</div>
+<!-- Map UI Overlays -->
+<div class="absolute top-6 left-6 z-10 flex flex-col gap-3">
+<button class="bg-surface p-3 rounded-xl shadow-lg text-primary hover:bg-primary hover:text-on-primary transition-all active:scale-90">
+<span class="material-symbols-outlined">add</span>
+</button>
+<button class="bg-surface p-3 rounded-xl shadow-lg text-primary hover:bg-primary hover:text-on-primary transition-all active:scale-90">
+<span class="material-symbols-outlined">remove</span>
+</button>
+<button class="bg-surface p-3 rounded-xl shadow-lg text-primary hover:bg-primary hover:text-on-primary transition-all active:scale-90">
+<span class="material-symbols-outlined">my_location</span>
+</button>
+</div>
+<!-- Featured POI Marker -->
+<div class="absolute top-1/2 left-1/3 z-10 -translate-x-1/2 -translate-y-1/2 group">
+<div class="bg-primary text-on-primary p-2 rounded-full shadow-xl shadow-primary/30 animate-bounce">
+<span class="material-symbols-outlined">waterfall_chart</span>
+</div>
+<div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 bg-surface px-3 py-2 rounded-lg shadow-xl opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+<span class="font-label-md text-label-md text-primary">Ouzoud Waterfalls</span>
+</div>
+</div>
+</div>
+<!-- Search Bar Overlay -->
+<div class="absolute top-6 left-1/2 -translate-x-1/2 w-full max-w-md px-4 z-20">
+<div class="relative group">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-on-surface-variant group-focus-within:text-primary transition-colors">search</span>
+<input class="w-full pl-12 pr-4 py-4 bg-surface/95 backdrop-blur-sm border border-outline-variant/30 rounded-2xl shadow-xl shadow-primary/5 focus:ring-2 focus:ring-primary/20 font-body-md transition-all outline-none" placeholder="Search heritage, trails, or artisans..." type="text"/>
+</div>
+</div>
+</section>
+<!-- Discovery List Section (Right) -->
+<aside class="w-full md:w-[420px] lg:w-[480px] h-full flex flex-col bg-surface border-l border-outline-variant/20 z-30">
+<!-- Header & Filters -->
+<div class="p-6 pb-4 bg-surface/90 backdrop-blur-md sticky top-0 z-10">
+<div class="flex items-center justify-between mb-6">
+<h2 class="font-headline-md text-headline-md text-on-surface">Explore Regions</h2>
+<button class="text-primary hover:bg-primary/5 p-2 rounded-full transition-colors">
+<span class="material-symbols-outlined">tune</span>
+</button>
+</div>
+<div class="flex gap-2 overflow-x-auto hide-scrollbar pb-2">
+<button class="flex-none px-5 py-2 rounded-xl bg-primary text-on-primary font-label-md text-label-md shadow-lg shadow-primary/20 transition-transform active:scale-95">All</button>
+<button class="flex-none px-5 py-2 rounded-xl bg-secondary-container text-on-secondary-container font-label-md text-label-md hover:bg-secondary hover:text-on-secondary transition-all">Nature</button>
+<button class="flex-none px-5 py-2 rounded-xl bg-surface-container-high text-on-surface-variant font-label-md text-label-md hover:bg-outline hover:text-on-primary transition-all">Heritage</button>
+<button class="flex-none px-5 py-2 rounded-xl bg-surface-container-high text-on-surface-variant font-label-md text-label-md hover:bg-primary-container hover:text-on-primary-container transition-all">Adventure</button>
+</div>
+</div>
+<!-- Scrollable Content -->
+<div class="flex-1 overflow-y-auto p-6 space-y-6 zellige-pattern">
+<!-- POI Card 1 -->
+<div class="group relative bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-outline-variant/10">
+<div class="h-56 relative overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Ouzoud Waterfalls" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7qwYYqYpiaB16ur_kprjiWGYUU_c-IEgRGAkl5I_EwqizRsduGbzT1dfG_pnyRD_l20P0HQZwu7xlVIk1GkYimXvgeu2oJRrkVP89Nm6i4f_DHLvhAN5JH_zXUEd_-Y5LAqd9c41hTlxf5LTuJhYb_sAmk_8ir-IQR6QFWBSPfWrToBDXkGTKQ81ll4hM46XHruDLTZBI2I07eTT5ibGQsp4D8UHnjom2KeW0cyE_tLY402BI8Rdx"/>
+<div class="absolute top-4 left-4 flex gap-2">
+<span class="bg-secondary-container/90 backdrop-blur-sm text-on-secondary-container px-3 py-1 rounded-lg text-label-sm font-label-md">Nature</span>
+<span class="bg-surface/90 backdrop-blur-sm text-primary px-3 py-1 rounded-lg text-label-sm font-label-md">Must See</span>
+</div>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline-sm text-headline-sm">Ouzoud Waterfalls</h3>
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md">4.9</span>
+</div>
+</div>
+<p class="text-on-surface-variant font-body-md mb-4 line-clamp-2">A magnificent 110-meter drop into the El-Abid River. Surrounded by ancient olive groves and playful Barbary macaques.</p>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">location_on</span>
+<span class="text-label-md font-body-md">Azilal Province</span>
+</div>
+<button class="bg-primary/5 hover:bg-primary hover:text-on-primary p-3 rounded-xl transition-all">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- POI Card 2 -->
+<div class="group relative bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-outline-variant/10">
+<div class="h-56 relative overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Bin El Ouidane" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyrO2SWOKwtLIa3eZ3w0xn2hItAU11mS20TFbd1LWBAvqo5pOYgxznGM_g1K5jfZeVhRgQy6PkQTwt6A-8n4OpxcgQa6jd9n21xBbpvohHUgybknun3CDZ0CjiZJFIXF5bBhomswGs6XTGiEJCZ084QOzJ3q5Oe045uyI4GOOmCLp-TfoJEQlk4PDuztyvuan19V4OgjpCTFdYjJnK8mxf5hntb8UvVEv3OcOLQHrC4RcIxjlDwJuB"/>
+<div class="absolute top-4 left-4 flex gap-2">
+<span class="bg-primary-container/90 backdrop-blur-sm text-on-primary-container px-3 py-1 rounded-lg text-label-sm font-label-md">Adventure</span>
+</div>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline-sm text-headline-sm">Bin El Ouidane</h3>
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md">4.7</span>
+</div>
+</div>
+<p class="text-on-surface-variant font-body-md mb-4 line-clamp-2">A vast azure lake nestled between the limestone peaks of the Atlas Mountains. Perfect for kayaking and fishing.</p>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">location_on</span>
+<span class="text-label-md font-body-md">Azilal Province</span>
+</div>
+<button class="bg-primary/5 hover:bg-primary hover:text-on-primary p-3 rounded-xl transition-all">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- POI Card 3 -->
+<div class="group relative bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-outline-variant/10">
+<div class="h-56 relative overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Ain Asserdoun" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLs9XwBMC4AR9ZEbzZUiX8AbZsSg_9vhKq9EKFKdQPZK9qP9Ts54Xt04bLkQRSSHjd4vEBOqoh-4fIYYYMlIqkQGaM5GLp2gEIWRdbnLj5pXOM7GkSY9uvC4g9PEjR9ixGIqiSt0EoNHrEnKtWZ8HnjfrThZ8YqBFxs1Km2Lk8RJqDqqjK5ALJoc_S9qme7XxwEvsf_7OsV5Fgo91e9PbBoydYF_8I0wvWtGvXp5IEHO1URQSTrjIm"/>
+<div class="absolute top-4 left-4 flex gap-2">
+<span class="bg-outline text-on-primary px-3 py-1 rounded-lg text-label-sm font-label-md">Heritage</span>
+</div>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-headline-sm text-headline-sm">Ain Asserdoun</h3>
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md">4.8</span>
+</div>
+</div>
+<p class="text-on-surface-variant font-body-md mb-4 line-clamp-2">A historic garden and spring categorized as national heritage. Features the impressive Kasbah Ras el Ain overlooking the city.</p>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">location_on</span>
+<span class="text-label-md font-body-md">Beni Mellal City</span>
+</div>
+<button class="bg-primary/5 hover:bg-primary hover:text-on-primary p-3 rounded-xl transition-all">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Footer spacing -->
+<div class="pt-8"></div>
+</div>
+</aside>
+</main>
+<!-- Floating Action Button -->
+<button class="fixed bottom-8 right-8 z-50 flex items-center gap-3 px-6 py-4 bg-primary text-on-primary rounded-xl shadow-2xl shadow-primary/40 hover:scale-105 active:scale-95 transition-all md:hidden">
+<span class="material-symbols-outlined">list</span>
+<span class="font-label-md text-label-md">View List</span>
+</button>
+<footer class="w-full mt-auto bg-surface-container border-t border-outline-variant/10 md:hidden">
+<div class="flex flex-col justify-between items-center px-margin-mobile py-12 gap-8">
+<h2 class="font-headline-sm text-headline-sm text-primary">Tanmiya Explorer</h2>
+<div class="flex flex-wrap justify-center gap-6">
+<a class="text-on-surface-variant hover:text-primary font-label-sm text-label-sm" href="#">Heritage Sites</a>
+<a class="text-on-surface-variant hover:text-primary font-label-sm text-label-sm" href="#">Mountain Trails</a>
+<a class="text-on-surface-variant hover:text-primary font-label-sm text-label-sm" href="#">Craft Villages</a>
+<a class="text-on-surface-variant hover:text-primary font-label-sm text-label-sm" href="#">Contact Us</a>
+</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant text-center opacity-70">
+            © 2024 Tanmiya Explorer. Smart Tourism for Béni Mellal–Khénifra.
+        </p>
+</div>
+</footer>
+<script>
+    // Micro-interaction for filter chip selection
+    const chips = document.querySelectorAll('.flex-none.px-5');
+    chips.forEach(chip => {
+        chip.addEventListener('click', () => {
+            chips.forEach(c => {
+                c.classList.remove('bg-primary', 'text-on-primary', 'shadow-lg', 'shadow-primary/20');
+                c.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+            });
+            chip.classList.add('bg-primary', 'text-on-primary', 'shadow-lg', 'shadow-primary/20');
+            chip.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+        });
+    });
+
+    // Simple visibility toggle for mobile list vs map
+    const fab = document.querySelector('button.md\\:hidden.fixed');
+    const aside = document.querySelector('aside');
+    
+    if (fab) {
+        fab.addEventListener('click', () => {
+            aside.classList.toggle('hidden');
+            if (!aside.classList.contains('hidden')) {
+                fab.querySelector('span:last-child').textContent = "View Map";
+                fab.querySelector('.material-symbols-outlined').textContent = "map";
+            } else {
+                fab.querySelector('span:last-child').textContent = "View List";
+                fab.querySelector('.material-symbols-outlined').textContent = "list";
+            }
+        });
+    }
+
+    // Initialize view based on screen size
+    const checkMobile = () => {
+        if (window.innerWidth < 768) {
+            aside.classList.add('hidden');
+        } else {
+            aside.classList.remove('hidden');
+        }
+    };
+    window.addEventListener('resize', checkMobile);
+    checkMobile();
+</script>
+</body></html>
+
+<!-- Discovery Map -->
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>AI Itinerary Assistant | Tanmiya Explorer</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700;800&amp;family=Hanken+Grotesk:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-error": "#ffffff",
+                    "inverse-on-surface": "#eff1f2",
+                    "background": "#f8fafb",
+                    "on-tertiary-fixed-variant": "#464747",
+                    "on-background": "#191c1d",
+                    "on-primary": "#ffffff",
+                    "secondary-container": "#c0e7ed",
+                    "on-secondary-container": "#44686e",
+                    "inverse-surface": "#2e3132",
+                    "tertiary-container": "#d1d0d0",
+                    "inverse-primary": "#00daf3",
+                    "tertiary-fixed-dim": "#c7c6c6",
+                    "surface": "#f8fafb",
+                    "surface-container-low": "#f2f4f5",
+                    "outline-variant": "#bac9cc",
+                    "on-surface-variant": "#3b494c",
+                    "outline": "#6b7a7d",
+                    "on-primary-fixed-variant": "#004f58",
+                    "on-tertiary": "#ffffff",
+                    "surface-bright": "#f8fafb",
+                    "on-primary-fixed": "#001f24",
+                    "surface-variant": "#e1e3e4",
+                    "error-container": "#ffdad6",
+                    "on-primary-container": "#00626e",
+                    "secondary-fixed": "#c3e9f0",
+                    "on-secondary-fixed-variant": "#274c51",
+                    "surface-dim": "#d8dadb",
+                    "surface-container-lowest": "#ffffff",
+                    "secondary": "#40646a",
+                    "tertiary-fixed": "#e4e2e2",
+                    "tertiary": "#5e5e5e",
+                    "on-secondary": "#ffffff",
+                    "surface-container": "#eceeef",
+                    "primary-fixed": "#9cf0ff",
+                    "primary": "#006875",
+                    "on-tertiary-container": "#595959",
+                    "error": "#ba1a1a",
+                    "primary-fixed-dim": "#00daf3",
+                    "primary-container": "#00e5ff",
+                    "on-secondary-fixed": "#001f23",
+                    "on-surface": "#191c1d",
+                    "surface-container-high": "#e6e8e9",
+                    "surface-container-highest": "#e1e3e4",
+                    "secondary-fixed-dim": "#a7cdd3",
+                    "on-tertiary-fixed": "#1b1c1c",
+                    "on-error-container": "#93000a",
+                    "surface-tint": "#006875"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "container-max": "1280px",
+                    "margin-desktop": "64px",
+                    "margin-mobile": "20px",
+                    "unit": "8px",
+                    "gutter": "24px"
+            },
+            "fontFamily": {
+                    "headline-lg-mobile": ["Bricolage Grotesque"],
+                    "body-lg": ["Hanken Grotesk"],
+                    "body-md": ["Hanken Grotesk"],
+                    "label-sm": ["Hanken Grotesk"],
+                    "headline-md": ["Bricolage Grotesque"],
+                    "body-sm": ["Hanken Grotesk"],
+                    "headline-lg": ["Bricolage Grotesque"],
+                    "label-md": ["Hanken Grotesk"],
+                    "headline-sm": ["Bricolage Grotesque"],
+                    "headline-xl": ["Bricolage Grotesque"]
+            },
+            "fontSize": {
+                    "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "label-sm": ["12px", {"lineHeight": "1", "letterSpacing": "0.02em", "fontWeight": "600"}],
+                    "headline-md": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                    "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                    "headline-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                    "label-md": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "headline-sm": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                    "headline-xl": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(186, 201, 204, 0.3);
+        }
+        .zellige-pattern {
+            background-image: radial-gradient(var(--tw-colors-outline-variant) 0.5px, transparent 0.5px);
+            background-size: 24px 24px;
+            opacity: 0.1;
+        }
+        .step-transition {
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+<!-- Top Navigation -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant/30">
+<div class="flex justify-between items-center px-gutter py-4 max-w-container-max mx-auto">
+<div class="font-headline-sm text-headline-sm text-primary font-extrabold tracking-tight">Tanmiya Explorer</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="#">Discover</a>
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-body-md text-body-md" href="#">Plan</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="#">Trips</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="#">Artisans</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="text-primary hover:bg-primary-container/10 px-4 py-2 rounded-lg transition-all active:scale-95 font-label-md text-label-md">Guide Mode</button>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-full hover:shadow-lg transition-all active:scale-95 font-label-md text-label-md">Sign In</button>
+</div>
+</div>
+</nav>
+<main class="relative min-h-screen pt-24 pb-12 flex flex-col items-center">
+<!-- Atmospheric Background Image -->
+<div class="fixed inset-0 z-0 overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background z-10"></div>
+<div class="w-full h-full scale-110 blur-[2px] brightness-[0.95] opacity-25 transition-transform duration-10000 ease-linear transform hover:scale-100" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDFvhxzFj-G4tSeRPyu_t-eK-M1wpd7a34N-wSm2mUeyjUe7E65PmeHgwLKj6sY6YH7kkdRh0z9CnXQ6K_kNCNkvMHCRdYpnjkgsWWZ9P0ak_aNgQjNSVQNCHBRXwIbAn0YPby3XHTENGdNTbObSN8cXEzDOl8IjpOm5PNZ3uVmHW2ThdBA-2vL3SesxdSYV4Lp-0HrLm3nxFxbwl5yRqxDetwnHHHuIYrGZ4f6j6YH-xbjco-A-tp-')">
+</div>
+<div class="zellige-pattern absolute inset-0"></div>
+</div>
+<div class="relative z-20 w-full max-w-4xl px-margin-mobile md:px-gutter flex flex-col gap-12 mt-8">
+<!-- Header Section -->
+<div class="text-center space-y-4">
+<span class="text-primary font-label-md text-label-md tracking-[0.2em] uppercase">Intelligent Discovery</span>
+<h1 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-background leading-tight">Your Moroccan Story,<br/><span class="text-primary">Perfectly Sequenced.</span></h1>
+<p class="text-on-surface-variant max-w-xl mx-auto font-body-lg text-body-lg">Share your preferences, and our AI will craft a bespoke journey through the hidden gems of Béni Mellal–Khénifra.</p>
+</div>
+<!-- Stepper -->
+<div class="flex items-center justify-between max-w-md mx-auto w-full relative">
+<div class="absolute top-1/2 left-0 w-full h-[2px] bg-outline-variant/30 -translate-y-1/2 z-0"></div>
+<div class="absolute top-1/2 left-0 w-0 h-[2px] bg-primary -translate-y-1/2 z-0 transition-all duration-500" id="step-progress"></div>
+<div class="step-indicator relative z-10 flex flex-col items-center gap-2">
+<div class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold border-4 border-background shadow-md">1</div>
+<span class="font-label-sm text-label-sm text-primary">Duration</span>
+</div>
+<div class="step-indicator relative z-10 flex flex-col items-center gap-2">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest text-on-surface-variant flex items-center justify-center font-bold border-4 border-background shadow-sm">2</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Interests</span>
+</div>
+<div class="step-indicator relative z-10 flex flex-col items-center gap-2">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest text-on-surface-variant flex items-center justify-center font-bold border-4 border-background shadow-sm">3</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Pace</span>
+</div>
+</div>
+<!-- Assistant Interface -->
+<div class="glass-panel rounded-[2rem] p-8 md:p-12 shadow-2xl shadow-primary/10 min-h-[500px] flex flex-col justify-between">
+<!-- Step 1: Duration -->
+<div class="step-transition opacity-100 translate-x-0" id="step-content-1">
+<div class="flex flex-col gap-8">
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-2">How long is your escape?</h3>
+<p class="text-on-surface-variant font-body-md text-body-md">Tell us the number of days you'll be spending in the region.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+<button class="flex flex-col p-6 rounded-xl bg-white border-2 border-primary text-primary shadow-lg transition-all active:scale-95 text-left group">
+<span class="material-symbols-outlined mb-4 text-3xl">calendar_today</span>
+<span class="font-bold text-body-lg">Short Trip</span>
+<span class="text-on-surface-variant text-label-sm">1-3 Days</span>
+</button>
+<button class="flex flex-col p-6 rounded-xl bg-white border border-outline-variant hover:border-primary transition-all active:scale-95 text-left group">
+<span class="material-symbols-outlined mb-4 text-3xl text-outline group-hover:text-primary">date_range</span>
+<span class="font-bold text-body-lg text-on-surface group-hover:text-primary">Weekly Stay</span>
+<span class="text-on-surface-variant text-label-sm">4-7 Days</span>
+</button>
+<button class="flex flex-col p-6 rounded-xl bg-white border border-outline-variant hover:border-primary transition-all active:scale-95 text-left group">
+<span class="material-symbols-outlined mb-4 text-3xl text-outline group-hover:text-primary">event_repeat</span>
+<span class="font-bold text-body-lg text-on-surface group-hover:text-primary">Grand Tour</span>
+<span class="text-on-surface-variant text-label-sm">8+ Days</span>
+</button>
+</div>
+<div class="bg-primary-container/10 p-6 rounded-xl flex items-center gap-4 border border-primary/20">
+<div class="w-12 h-12 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container">
+<span class="material-symbols-outlined">auto_awesome</span>
+</div>
+<p class="font-body-md text-body-md italic text-on-surface-variant">"Short trips are perfect for Ouzoud Waterfalls and the Bin el Ouidane lake circuit."</p>
+</div>
+</div>
+</div>
+<!-- Footer Navigation Buttons -->
+<div class="flex justify-between items-center mt-12 pt-8 border-t border-outline-variant/30">
+<button class="flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md opacity-50 cursor-not-allowed">
+<span class="material-symbols-outlined">arrow_back</span>
+                    Back
+                </button>
+<button class="bg-primary text-on-primary px-10 py-4 rounded-full hover:shadow-cyan hover:shadow-xl hover:-translate-y-0.5 transition-all active:scale-95 flex items-center gap-2 font-label-md text-label-md" onclick="nextStep()">
+                    Continue to Interests
+                    <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Bento Preview of Region -->
+<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+<div class="md:col-span-2 h-72 rounded-[1.5rem] overflow-hidden relative group cursor-pointer shadow-lg">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBnh0kcV17fRQDBzB85RGE3VX5Pjgz301ikeYw-M1vz_NzEfYLiBttp9opAUrBAEDdzb9n2-cPJFaqLgDkQb2dxX1eqRAPThgPgExqapsP9c-Q2xOT10wk8_RPrnLwQ0iWDkAKJumoy1wBGN3Row94zADMY5NM1Rxk56dXiuQf08cxGm30xuEHuIlpNp71UG4z0QzqBElacKuiXuClrVf-gswOvbcB_Zl6DUNZ5U_YYMAc_Dp5XRDo"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-6 flex flex-col justify-end">
+<span class="text-primary-fixed font-label-sm text-label-sm mb-1 uppercase tracking-wider">Authentic Craft</span>
+<h4 class="text-white font-headline-sm text-headline-sm">Artisan Villages</h4>
+</div>
+</div>
+<div class="md:col-span-1 h-72 rounded-[1.5rem] overflow-hidden relative group cursor-pointer shadow-lg">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqMIz_4brmpzKEHVmMfgZXDKFnFsWbniVzuWelrfszU1etSV1-hGrvD71D8Iaf_B7T-fY0OHxGRdNKYMWTvoEBCmJjaUzQkkoBBmyaMuL5zLA2khwED6NyYCMQh0TWv7VNdmlCryFZGAi1l8VayU7NT1a1lYF60taj96_85Ep7eD9iYISUjUw-jhGHMSdqusDe_GGLYu1BTFIhpe_53t5XLHXzxBCG-iDbzUDks8YXcoX3vGr8vjvo"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-6 flex flex-col justify-end">
+<span class="text-primary-fixed font-label-sm text-label-sm mb-1 uppercase tracking-wider">Water &amp; Adventure</span>
+<h4 class="text-white font-headline-sm text-headline-sm">Bin el Ouidane</h4>
+</div>
+</div>
+<div class="md:col-span-1 h-72 rounded-[1.5rem] overflow-hidden relative group cursor-pointer shadow-lg">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBAh9VME-xS_S7475mZGpNF7kuMFVaefgnqggQPVAZMcdGmoINXDEwoXrtAn-RmQnYnHJagm6KeL-_umdIzqGM3C1h-WgNzr9VsdrXHUxuknG_i_WfTQjPlC1PBd2cJi21OTavzp9UXRyggQeQRwWleTgMBTgdd34sGWdxIGTXoxJAs4z9n6eQuliftivnznwP8lD0X_Acb79LomT7X5w_ThdweJ6sRepWJI-ftJM60TEyHCIh9Kqzq"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-6 flex flex-col justify-end">
+<span class="text-primary-fixed font-label-sm text-label-sm mb-1 uppercase tracking-wider">Iconic Nature</span>
+<h4 class="text-white font-headline-sm text-headline-sm">Ouzoud Falls</h4>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-surface-container w-full mt-auto border-t border-outline-variant/30">
+<div class="flex flex-col md:flex-row justify-between items-start px-margin-desktop py-16 gap-12 max-w-container-max mx-auto">
+<div class="flex flex-col gap-6">
+<div class="font-headline-sm text-headline-sm text-primary font-extrabold tracking-tight">Tanmiya Explorer</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs leading-relaxed">Smart tourism for the Béni Mellal–Khénifra region. Experience modern heritage through intelligent exploration.</p>
+</div>
+<div class="grid grid-cols-2 gap-x-12 gap-y-4">
+<a class="text-on-surface-variant hover:text-primary font-label-md text-label-md transition-colors" href="#">Heritage Sites</a>
+<a class="text-on-surface-variant hover:text-primary font-label-md text-label-md transition-colors" href="#">Mountain Trails</a>
+<a class="text-on-surface-variant hover:text-primary font-label-md text-label-md transition-colors" href="#">Craft Villages</a>
+<a class="text-on-surface-variant hover:text-primary font-label-md text-label-md transition-colors" href="#">Contact Us</a>
+<a class="text-on-surface-variant hover:text-primary font-label-md text-label-md transition-colors" href="#">Privacy Policy</a>
+</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant opacity-60">
+            © 2024 Tanmiya Explorer.<br/>Smart Tourism for Béni Mellal–Khénifra.
+        </div>
+</div>
+</footer>
+<script>
+    let currentStep = 1;
+
+    function nextStep() {
+        if (currentStep < 3) {
+            const currentContent = document.getElementById(`step-content-${currentStep}`);
+            currentContent.classList.add('opacity-0', '-translate-x-8');
+            setTimeout(() => {
+                currentStep++;
+                updateUI();
+            }, 400);
+        }
+    }
+
+    function prevStep() {
+        if (currentStep > 1) {
+            currentStep--;
+            updateUI();
+        }
+    }
+
+    function updateUI() {
+        const indicators = document.querySelectorAll('.step-indicator div');
+        const spans = document.querySelectorAll('.step-indicator span');
+        const progressLine = document.getElementById('step-progress');
+
+        indicators.forEach((indicator, index) => {
+            if (index + 1 < currentStep) {
+                indicator.innerHTML = '<span class="material-symbols-outlined text-sm">check</span>';
+                indicator.className = "w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold border-4 border-background shadow-md";
+                spans[index].className = "font-label-sm text-label-sm text-primary font-bold";
+            } else if (index + 1 === currentStep) {
+                indicator.innerHTML = currentStep;
+                indicator.className = "w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold border-4 border-background shadow-md";
+                spans[index].className = "font-label-sm text-label-sm text-primary font-bold";
+            } else {
+                indicator.innerHTML = index + 1;
+                indicator.className = "w-10 h-10 rounded-full bg-surface-container-highest text-on-surface-variant flex items-center justify-center font-bold border-4 border-background shadow-sm";
+                spans[index].className = "font-label-sm text-label-sm text-on-surface-variant";
+            }
+        });
+
+        const progressWidths = ['0%', '50%', '100%'];
+        progressLine.style.width = progressWidths[currentStep - 1];
+
+        const assistantPanel = document.querySelector('.glass-panel');
+        let contentHTML = '';
+
+        if (currentStep === 2) {
+            contentHTML = `
+            <div id="step-content-2" class="step-transition opacity-0 translate-x-8">
+                <div class="flex flex-col gap-8">
+                    <div>
+                        <h3 class="font-headline-md text-headline-md text-on-surface mb-2">What sparks your curiosity?</h3>
+                        <p class="text-on-surface-variant font-body-md text-body-md">Select your primary interests for the trip.</p>
+                    </div>
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                        ${['Heritage', 'Nature', 'Gastronomy', 'Adrenaline', 'Crafts', 'Wellness', 'Culture', 'Local Life'].map(item => `
+                            <button class="p-4 rounded-xl border border-outline-variant hover:border-primary hover:bg-primary-container/10 transition-all text-center">
+                                <span class="font-label-md text-label-md">${item}</span>
+                            </button>
+                        `).join('')}
+                    </div>
+                </div>
+            </div>`;
+        } else if (currentStep === 3) {
+            contentHTML = `
+            <div id="step-content-3" class="step-transition opacity-0 translate-x-8">
+                <div class="flex flex-col gap-8">
+                    <div>
+                        <h3 class="font-headline-md text-headline-md text-on-surface mb-2">Define your pace</h3>
+                        <p class="text-on-surface-variant font-body-md text-body-md">How active would you like your journey to be?</p>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="p-6 rounded-xl border-2 border-primary bg-primary-container/5 flex items-center justify-between">
+                            <div>
+                                <h4 class="font-bold text-body-lg">Leisurely & Immersive</h4>
+                                <p class="text-on-surface-variant text-label-sm">Focus on slow exploration and deep cultural connections.</p>
+                            </div>
+                            <span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1">radio_button_checked</span>
+                        </div>
+                        <div class="p-6 rounded-xl border border-outline-variant bg-white flex items-center justify-between opacity-70">
+                            <div>
+                                <h4 class="font-bold text-body-lg">Balanced Adventure</h4>
+                                <p class="text-on-surface-variant text-label-sm">A mix of relaxation and moderate physical activity.</p>
+                            </div>
+                            <span class="material-symbols-outlined text-outline">radio_button_unchecked</span>
+                        </div>
+                    </div>
+                </div>
+            </div>`;
+        }
+
+        const container = document.querySelector('.glass-panel > div:first-child');
+        container.innerHTML = contentHTML;
+        
+        setTimeout(() => {
+            const newContent = container.firstChild;
+            newContent.classList.remove('opacity-0', 'translate-x-8');
+            newContent.classList.add('opacity-100', 'translate-x-0');
+        }, 50);
+
+        const backBtn = document.querySelector('button:has(.material-symbols-outlined:contains("arrow_back"))') || document.querySelector('button .material-symbols-outlined:contains("arrow_back")')?.parentElement;
+        const nextBtn = document.querySelector('button:has(.material-symbols-outlined:contains("arrow_forward"))') || document.querySelector('button .material-symbols-outlined:contains("arrow_forward")')?.parentElement;
+
+        if (currentStep > 1) {
+            backBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+            backBtn.onclick = prevStep;
+        } else {
+            backBtn.classList.add('opacity-50', 'cursor-not-allowed');
+            backBtn.onclick = null;
+        }
+
+        if (currentStep === 3) {
+            nextBtn.innerHTML = 'Generate Itinerary <span class="material-symbols-outlined">auto_fix_high</span>';
+            nextBtn.onclick = () => alert('Our AI is weaving your itinerary... Check your email in a few moments!');
+        } else {
+            nextBtn.innerHTML = `Continue to ${currentStep === 1 ? 'Interests' : 'Pace'} <span class="material-symbols-outlined">arrow_forward</span>`;
+            nextBtn.onclick = nextStep;
+        }
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+        const symbols = document.querySelectorAll('.material-symbols-outlined');
+        symbols.forEach(symbol => {
+            if(symbol.textContent.includes('arrow_back')) symbol.textContent = 'arrow_back';
+            if(symbol.textContent.includes('arrow_forward')) symbol.textContent = 'arrow_forward';
+        });
+    });
+</script>
+</body></html>
+
+<!-- AI Planning Assistant -->
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Tanmiya Explorer | Your Itinerary</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700;800&amp;family=Hanken+Grotesk:wght@400;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error": "#ffffff",
+                        "inverse-on-surface": "#eff1f2",
+                        "background": "#f8fafb",
+                        "on-tertiary-fixed-variant": "#464747",
+                        "on-background": "#191c1d",
+                        "on-primary": "#ffffff",
+                        "secondary-container": "#c0e7ed",
+                        "on-secondary-container": "#44686e",
+                        "inverse-surface": "#2e3132",
+                        "tertiary-container": "#d1d0d0",
+                        "inverse-primary": "#00daf3",
+                        "tertiary-fixed-dim": "#c7c6c6",
+                        "surface": "#f8fafb",
+                        "surface-container-low": "#f2f4f5",
+                        "outline-variant": "#bac9cc",
+                        "on-surface-variant": "#3b494c",
+                        "outline": "#6b7a7d",
+                        "on-primary-fixed-variant": "#004f58",
+                        "on-tertiary": "#ffffff",
+                        "surface-bright": "#f8fafb",
+                        "on-primary-fixed": "#001f24",
+                        "surface-variant": "#e1e3e4",
+                        "error-container": "#ffdad6",
+                        "on-primary-container": "#00626e",
+                        "secondary-fixed": "#c3e9f0",
+                        "on-secondary-fixed-variant": "#274c51",
+                        "surface-dim": "#d8dadb",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary": "#40646a",
+                        "tertiary-fixed": "#e4e2e2",
+                        "tertiary": "#5e5e5e",
+                        "on-secondary": "#ffffff",
+                        "surface-container": "#eceeef",
+                        "primary-fixed": "#9cf0ff",
+                        "primary": "#006875",
+                        "on-tertiary-container": "#595959",
+                        "error": "#ba1a1a",
+                        "primary-fixed-dim": "#00daf3",
+                        "primary-container": "#00e5ff",
+                        "on-secondary-fixed": "#001f23",
+                        "on-surface": "#191c1d",
+                        "surface-container-high": "#e6e8e9",
+                        "surface-container-highest": "#e1e3e4",
+                        "secondary-fixed-dim": "#a7cdd3",
+                        "on-tertiary-fixed": "#1b1c1c",
+                        "on-error-container": "#93000a",
+                        "surface-tint": "#006875"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "container-max": "1280px",
+                        "margin-desktop": "64px",
+                        "margin-mobile": "20px",
+                        "unit": "8px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Bricolage Grotesque"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "label-sm": ["Hanken Grotesk"],
+                        "headline-md": ["Bricolage Grotesque"],
+                        "body-sm": ["Hanken Grotesk"],
+                        "headline-lg": ["Bricolage Grotesque"],
+                        "label-md": ["Hanken Grotesk"],
+                        "headline-sm": ["Bricolage Grotesque"],
+                        "headline-xl": ["Bricolage Grotesque"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "label-sm": ["12px", {"lineHeight": "1", "letterSpacing": "0.02em", "fontWeight": "600"}],
+                        "headline-md": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                        "headline-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                        "label-md": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "headline-sm": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                        "headline-xl": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .zellige-pattern {
+            background-color: #f8fafb;
+            background-image: radial-gradient(#006875 0.5px, transparent 0.5px);
+            background-size: 24px 24px;
+            opacity: 0.03;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #bac9cc;
+            border-radius: 10px;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant/10">
+<div class="flex justify-between items-center px-gutter py-4 max-w-container-max mx-auto">
+<div class="flex items-center gap-8">
+<a class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight" href="#">Tanmiya Explorer</a>
+<div class="hidden md:flex items-center gap-6">
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Discover</a>
+<a class="font-label-md text-label-md text-primary font-bold border-b-2 border-primary pb-1" href="#">Plan</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Trips</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#">Artisans</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden lg:flex items-center gap-2 px-4 py-2 text-on-surface-variant hover:bg-surface-variant/50 rounded-lg transition-all active:scale-95">
+<span class="material-symbols-outlined">explore</span>
+<span class="font-label-md text-label-md">Guide Mode</span>
+</button>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-lg font-label-md text-label-md active:scale-95 transition-all shadow-lg shadow-primary/10">
+                Sign In
+            </button>
+</div>
+</div>
+</nav>
+<!-- Hero Content Header -->
+<header class="pt-24 pb-8 px-gutter max-w-container-max mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div>
+<nav class="flex items-center gap-2 text-on-surface-variant mb-4">
+<span class="text-label-sm font-label-sm uppercase tracking-wider">Home</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-label-sm font-label-sm uppercase tracking-wider">Itineraries</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-label-sm font-label-sm uppercase tracking-wider text-primary">High Atlas Heritage</span>
+</nav>
+<h1 class="font-headline-lg text-headline-lg md:text-headline-xl text-on-background max-w-2xl leading-none">
+                The Artisan &amp; Ouzoud Valley Trail
+            </h1>
+<div class="flex flex-wrap gap-3 mt-6">
+<span class="flex items-center gap-2 bg-secondary-container text-on-secondary-container px-3 py-1.5 rounded-lg text-label-md font-label-md">
+<span class="material-symbols-outlined text-base">calendar_today</span>
+                    4 Days
+                </span>
+<span class="flex items-center gap-2 bg-primary-container text-on-primary-container px-3 py-1.5 rounded-lg text-label-md font-label-md">
+<span class="material-symbols-outlined text-base">mountain_flag</span>
+                    Moderate Adventure
+                </span>
+<span class="flex items-center gap-2 bg-surface-container-high text-on-surface-variant px-3 py-1.5 rounded-lg text-label-md font-label-md">
+<span class="material-symbols-outlined text-base">group</span>
+                    Local Communities
+                </span>
+</div>
+</div>
+<div class="flex gap-3">
+<button class="flex items-center justify-center w-12 h-12 border border-outline-variant rounded-lg text-primary hover:bg-primary-fixed/20 transition-all">
+<span class="material-symbols-outlined">share</span>
+</button>
+<button class="flex items-center justify-center w-12 h-12 border border-outline-variant rounded-lg text-primary hover:bg-primary-fixed/20 transition-all">
+<span class="material-symbols-outlined">favorite</span>
+</button>
+</div>
+</div>
+</header>
+<main class="max-w-container-max mx-auto px-gutter pb-24 grid grid-cols-1 lg:grid-cols-12 gap-12 relative">
+<div class="absolute inset-0 zellige-pattern pointer-events-none"></div>
+<!-- Left Column: Timeline -->
+<div class="lg:col-span-7 relative">
+<div class="space-y-16 mt-8">
+<!-- Day 1 -->
+<section class="relative">
+<div class="flex gap-8">
+<div class="flex flex-col items-center">
+<div class="w-14 h-14 rounded-lg bg-primary flex items-center justify-center text-on-primary font-headline-sm shadow-xl shadow-primary/20 z-10">
+                            01
+                        </div>
+<div class="w-1 h-full bg-outline-variant/20 mt-2 rounded-full"></div>
+</div>
+<div class="flex-1 pb-4">
+<h2 class="font-headline-md text-headline-md text-on-surface mb-2">Arrival in Béni Mellal</h2>
+<p class="text-on-surface-variant font-body-lg mb-8">Begin your journey in the "Pearl of the Middle Atlas," settling into a traditional riad and exploring the lush gardens.</p>
+<div class="space-y-8">
+<!-- POI Item -->
+<div class="flex flex-col sm:flex-row gap-6 bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-outline-variant/10 hover:shadow-xl hover:border-primary/20 transition-all group">
+<div class="w-full sm:w-48 h-32 flex-shrink-0 rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A wide-angle landscape photograph of the lush Ain Asserdoun gardens in Béni Mellal, Morocco. The scene features crystal-clear cascading water fountains, vibrant green Mediterranean cypress trees, and the ancient Kasbah structure overlooking the gardens under a soft, golden golden-hour light. The atmosphere is peaceful, sophisticated, and earthy with high-key lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwpTwgrQ5ciBSCtsByH1d2Z6l-Ilm3ap6k5ODY5O_Xp-NHHCVLyShe0mMG0IJ8feFe6fATvzHaD4r5XEiNdVkfhKTZPWuolfGO5D9Gsz-x9qiT2rc5EjE0AVgAJIQCyYimo8c1CwCYwIllXeDpMz6dPAeW6G2vTdJsojVMBFpD-GhKk6fD6A0Lk9Ref9aNH1nrw5uC1UNI3zUb2FfiZkkL4GKkw7qDJp9UYRboKu4OIz1qMPtri4aZ"/>
+</div>
+<div class="flex-1">
+<div class="flex items-center justify-between mb-2">
+<span class="text-label-sm font-label-sm text-secondary uppercase tracking-widest">10:00 AM • Heritage</span>
+<span class="text-label-sm font-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">schedule</span>
+                                            1.5h Visit
+                                        </span>
+</div>
+<h3 class="font-headline-sm text-on-surface group-hover:text-primary transition-colors">Ain Asserdoun Gardens</h3>
+<p class="text-body-md text-on-surface-variant mt-2">Explore the historical water springs and the landmark castle overlooking the plains of Tadla.</p>
+</div>
+</div>
+<!-- Travel Indicator -->
+<div class="flex items-center gap-4 py-2 px-6 ml-4 border-l-2 border-dashed border-primary/30">
+<span class="material-symbols-outlined text-primary text-[18px]">directions_car</span>
+<span class="text-label-sm font-label-sm text-on-surface-variant">20 min drive to next destination</span>
+</div>
+<!-- POI Item -->
+<div class="flex flex-col sm:flex-row gap-6 bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-outline-variant/10 hover:shadow-xl hover:border-primary/20 transition-all group">
+<div class="w-full sm:w-48 h-32 flex-shrink-0 rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Close-up shot of a Moroccan artisan's hands weaving a complex, colorful carpet in a rustic, sunlight-filled workshop. The colors are deep terracotta, olive green, and azure blue. Dust motes dance in the light rays, creating a tactile, heritage-focused atmosphere that feels authentic and high-end." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCP69Z0qJ9qDBpvKSo_Yg1FSFqTFUTjp1zDJ4aFZw8mZxw8keUwqbHeJcx3SjqJQSMS0uW0wwWt9zUascShifsTf0iNRyO_Ni-nDHkcsYE_BWmKgWaPqRgvNIHWAi10kFsPjIz2s1mVmQkIKd3D84UoARb1RI8_civZkugAQPjXDIgwOQKLjuel6Vc0z990mtu9_5jok8I_aOMuyVSIvi60ikM4HhnYXf1exdEgEEVMHnHLsqg0MnU2"/>
+</div>
+<div class="flex-1">
+<div class="flex items-center justify-between mb-2">
+<span class="text-label-sm font-label-sm text-secondary uppercase tracking-widest">1:00 PM • Artisan Experience</span>
+<span class="text-label-sm font-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">schedule</span>
+                                            2h Workshop
+                                        </span>
+</div>
+<h3 class="font-headline-sm text-on-surface group-hover:text-primary transition-colors">Hanbel Weaving Cooperative</h3>
+<p class="text-body-md text-on-surface-variant mt-2">Meet local women weavers and learn the ancient techniques of Atlas carpet making.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Day 2 -->
+<section class="relative">
+<div class="flex gap-8">
+<div class="flex flex-col items-center">
+<div class="w-14 h-14 rounded-lg bg-secondary-container flex items-center justify-center text-on-secondary-container font-headline-sm shadow-md z-10">
+                            02
+                        </div>
+<div class="w-1 h-full bg-outline-variant/20 mt-2 rounded-full"></div>
+</div>
+<div class="flex-1 pb-4">
+<h2 class="font-headline-md text-headline-md text-on-surface mb-2">The Ouzoud Descent</h2>
+<p class="text-on-surface-variant font-body-lg mb-8">Journey to the tallest waterfalls in North Africa and hike through ancient olive groves.</p>
+<div class="space-y-8">
+<div class="flex flex-col sm:flex-row gap-6 bg-surface-container-lowest p-6 rounded-xl shadow-sm border border-outline-variant/10 hover:shadow-xl hover:border-primary/20 transition-all group">
+<div class="w-full sm:w-48 h-32 flex-shrink-0 rounded-lg overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A majestic vertical shot of the Ouzoud Waterfalls in Morocco. The water plunges 110 meters into a series of pools, surrounded by reddish sandstone cliffs and lush green foliage. A faint rainbow is visible in the mist. The lighting is bright and airy, capturing the scale and natural beauty of the Atlas mountains." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0-v1NsoPYsuAeEDPLCFqQ3gFx8Zx1x_UqiGPEahrvlJd2u5-aMQY5M9WyYrDcKYYc9b52MGp0HQxIrEjS6RWEDzAfPlKQvIx3BM8ngMvJSo2NQ5UUZt8zfX--m2rE8laJy5ZE_zLdt59VVOity2NtrJTOmwej1nuvFCDd5EoAGj4NcG_99zAaFKPKdTjanaYQdXwFVRnMiGyRqvb7D1829SJIEhjyr-qNafHPdrPlidXHd1Z3yHSl"/>
+</div>
+<div class="flex-1">
+<div class="flex items-center justify-between mb-2">
+<span class="text-label-sm font-label-sm text-secondary uppercase tracking-widest">09:30 AM • Nature</span>
+<span class="text-label-sm font-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">schedule</span>
+                                            4h Activity
+                                        </span>
+</div>
+<h3 class="font-headline-sm text-on-surface group-hover:text-primary transition-colors">Ouzoud Waterfalls Trek</h3>
+<p class="text-body-md text-on-surface-variant mt-2">Hike from the summit to the basin, passing by old water mills and observing wild Barbary macaques.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<!-- Right Column: Sidebar -->
+<div class="lg:col-span-5">
+<div class="sticky top-28 space-y-8">
+<!-- Map Widget -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-xl shadow-primary/5 border border-outline-variant/10">
+<div class="p-4 flex justify-between items-center border-b border-outline-variant/10">
+<h4 class="font-label-md text-label-md text-on-surface uppercase tracking-wider">Interactive Route</h4>
+<button class="text-primary font-label-md flex items-center gap-1 hover:underline">
+<span class="material-symbols-outlined text-[18px]">fullscreen</span>
+                        View Large
+                    </button>
+</div>
+<div class="relative h-64 bg-surface-container">
+<img class="w-full h-full object-cover opacity-80 mix-blend-multiply" data-location="Béni Mellal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBK6qSU5SC3FhfHwYd_R8xnFqF_kPiuBk0cvyhbxK2iAd6bpwuQ_VpxaTZnhlCZ6WHTJWSAzpnWMChTLsqVYk6t23C8mz75Ra-A6dfLC52XHi9I9IlzJYQ5iBJ6wIg3PsRSKGDl-XiXprVaSSWFxrkQv5JjfN-Gyf85gsJi3sH4eBGO5wecI2aDKCi7ZWaY9XIdg1Pg_CPhyzfqFo4e0N3YhDa02T6FXMSkOABr7AIIV8nyuKi4bLtT"/>
+<!-- Custom Map Markers Overlay -->
+<div class="absolute top-1/4 left-1/3">
+<div class="relative flex flex-col items-center group">
+<div class="w-5 h-5 bg-primary rounded-lg border-2 border-white shadow-lg animate-pulse"></div>
+<span class="mt-2 bg-surface px-2 py-1 rounded-lg shadow-sm text-[10px] font-bold text-primary opacity-0 group-hover:opacity-100 transition-opacity">Béni Mellal</span>
+</div>
+</div>
+<div class="absolute bottom-1/3 right-1/4">
+<div class="relative flex flex-col items-center group">
+<div class="w-5 h-5 bg-secondary rounded-lg border-2 border-white shadow-lg"></div>
+<span class="mt-2 bg-surface px-2 py-1 rounded-lg shadow-sm text-[10px] font-bold text-secondary opacity-0 group-hover:opacity-100 transition-opacity">Ouzoud</span>
+</div>
+</div>
+<!-- Path SVG Simulation -->
+<svg class="absolute inset-0 w-full h-full pointer-events-none" preserveaspectratio="none" viewbox="0 0 100 100">
+<path d="M33,25 C45,35 65,55 75,66" fill="none" stroke="#006875" stroke-dasharray="4,4" stroke-width="0.8"></path>
+</svg>
+</div>
+<div class="p-4 bg-surface-container-low flex justify-around">
+<div class="text-center">
+<div class="text-label-sm font-label-sm text-on-surface-variant uppercase">Total Distance</div>
+<div class="font-bold text-headline-sm text-on-surface">142 km</div>
+</div>
+<div class="w-px h-8 bg-outline-variant/30"></div>
+<div class="text-center">
+<div class="text-label-sm font-label-sm text-on-surface-variant uppercase">Elevation Gain</div>
+<div class="font-bold text-headline-sm text-on-surface">840 m</div>
+</div>
+</div>
+</div>
+<!-- Action Cards -->
+<div class="space-y-4">
+<!-- Option 1: DIY -->
+<div class="bg-surface-container-lowest border border-outline-variant/20 rounded-xl p-6 hover:border-primary/50 hover:shadow-lg transition-all cursor-pointer group">
+<div class="flex items-start gap-4">
+<div class="p-3 bg-primary-container/20 rounded-lg text-primary">
+<span class="material-symbols-outlined">directions_run</span>
+</div>
+<div class="flex-1">
+<h3 class="font-headline-sm text-on-surface">Follow DIY Plan</h3>
+<p class="text-body-sm text-on-surface-variant mt-1">Get the offline PDF, GPS tracks, and reservation contacts.</p>
+<button class="mt-4 text-primary font-label-md flex items-center gap-1 group-hover:gap-2 transition-all">
+                                Download Itinerary <span class="material-symbols-outlined">download</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Option 2: Local Guide -->
+<div class="bg-primary rounded-xl p-8 text-on-primary shadow-2xl shadow-primary/30 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-48 h-48 bg-white/5 rounded-full -mr-24 -mt-24"></div>
+<h3 class="font-headline-md text-headline-md mb-4 leading-tight">Book a Local Guide</h3>
+<p class="text-on-primary/80 font-body-md mb-8">Enhance your experience with local storytellers, exclusive home-stays, and hidden artisan workshops.</p>
+<div class="space-y-4 mb-8">
+<!-- Guide Trip Card -->
+<div class="bg-white/10 backdrop-blur-md rounded-lg p-4 border border-white/10 hover:bg-white/20 transition-all cursor-pointer">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-lg border-2 border-white/50 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="A warm, friendly portrait of a local Moroccan mountain guide, a man in his late 40s wearing a traditional indigo blue scarf and a tan outdoor vest. He is smiling genuinely against a blurred background of the Atlas mountains. The lighting is soft and natural, emphasizing trust and local expertise." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPCk5MbvR7YyyRx0wY81STzmcI4D8K7p22J3HGO06TaUkVCPPuy1bhiK76nhp6Wn5Kw_RqwZU7W1Yxh1aPmAGSB2PVlBRHQbMGLBwDxdMy-y4na1gKuNp_8C-MVs2VJ6bziTvVSCrdBSQiJMngTpK2uQPRl_siNrrgOUDqn5Um-fqdiTWq9BVI9zG8lAx88BYvWNsYvr_jd-ygvWOLl6kKQeFv3KhHmM4oNlz4ZYzFTNUdTgKBiaVk"/>
+</div>
+<div class="flex-1">
+<h4 class="font-bold text-body-md">Idriss's Hidden Valleys</h4>
+<div class="flex items-center gap-2 text-label-sm opacity-80">
+<span class="flex items-center"><span class="material-symbols-outlined text-[14px]">star</span> 4.9</span>
+<span>• 124 reviews</span>
+</div>
+</div>
+<div class="text-right">
+<div class="text-label-sm opacity-70">From</div>
+<div class="font-bold text-body-lg">$140</div>
+</div>
+</div>
+</div>
+<div class="bg-white/10 backdrop-blur-md rounded-lg p-4 border border-white/10 hover:bg-white/20 transition-all cursor-pointer">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-lg border-2 border-white/50 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Professional headshot of a female cultural expert in Morocco, wearing a stylish olive green hijab and modern glasses. She is standing in a brightly lit artisan courtyard with ceramics in the background. The aesthetic is intelligent, modern heritage, and welcoming." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAExxuVo0THJWmFV8FvD_InM8xh_Prb5RH0VjgAUrqjlyne6kf2ngTlgW8GsB3PqDVEt1fCFpUv7OOHK-AvdiA2pO8MeB177WIEK_ag1qUquP4T_5cU-fkMDmhxvEDmER6-pa-KJ3v2DJUn0HKXNvY8Bq4L8GC_2wUYbMhzvGWqy33f1Ukw7wJ9yYSvYXzaDXbFsSlSRkWM6qkA920RPdCV7ep0tGCM-p2ZXjbdvRI-xBNC3phWh-n6"/>
+</div>
+<div class="flex-1">
+<h4 class="font-bold text-body-md">Fatima's Artisan Circle</h4>
+<div class="flex items-center gap-2 text-label-sm opacity-80">
+<span class="flex items-center"><span class="material-symbols-outlined text-[14px]">star</span> 5.0</span>
+<span>• 89 reviews</span>
+</div>
+</div>
+<div class="text-right">
+<div class="text-label-sm opacity-70">From</div>
+<div class="font-bold text-body-lg">$185</div>
+</div>
+</div>
+</div>
+</div>
+<button class="w-full bg-surface-container-lowest text-primary py-4 rounded-lg font-bold text-label-md hover:shadow-xl active:scale-95 transition-all">
+                        Browse All Local Programs
+                    </button>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full mt-auto bg-surface-container border-t border-outline-variant/10">
+<div class="flex flex-col md:flex-row justify-between items-center px-margin-desktop py-12 gap-8 max-w-container-max mx-auto">
+<div class="flex flex-col items-center md:items-start gap-4">
+<span class="font-headline-sm text-headline-sm text-primary">Tanmiya Explorer</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs text-center md:text-left">
+                Empowering local communities through smart, sustainable tourism in the heart of the Atlas.
+            </p>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-all" href="#">Heritage Sites</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-all" href="#">Mountain Trails</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-all" href="#">Craft Villages</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-all" href="#">Contact Us</a>
+</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant text-center md:text-right">
+            © 2024 Tanmiya Explorer. Smart Tourism for Béni Mellal–Khénifra.
+        </p>
+</div>
+</footer>
+<!-- Mobile Bottom Navigation Shell -->
+<div class="md:hidden fixed bottom-0 left-0 right-0 glass-panel border-t border-outline-variant/10 px-6 py-3 flex justify-between items-center z-50">
+<button class="flex flex-col items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined">explore</span>
+<span class="text-[10px] font-bold uppercase tracking-tighter">Discover</span>
+</button>
+<button class="flex flex-col items-center gap-1 text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">map</span>
+<span class="text-[10px] font-bold uppercase tracking-tighter">Plan</span>
+</button>
+<button class="flex flex-col items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined">travel_explore</span>
+<span class="text-[10px] font-bold uppercase tracking-tighter">Trips</span>
+</button>
+<button class="flex flex-col items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined">person</span>
+<span class="text-[10px] font-bold uppercase tracking-tighter">Profile</span>
+</button>
+</div>
+<script>
+    // Simple scroll observer for the timeline items appearance
+    const observerOptions = {
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('opacity-100', 'translate-y-0');
+                entry.target.classList.remove('opacity-0', 'translate-y-4');
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('section, .bg-surface-container-lowest').forEach(el => {
+        el.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-4');
+        observer.observe(el);
+    });
+
+    // Interactive micro-interaction for the map markers
+    const mapImage = document.querySelector('[data-location]');
+    if (mapImage) {
+        mapImage.addEventListener('mousemove', (e) => {
+            const rect = mapImage.getBoundingClientRect();
+            const x = (e.clientX - rect.left) / rect.width;
+            const y = (e.clientY - rect.top) / rect.height;
+            mapImage.style.transformOrigin = `${x * 100}% ${y * 100}%`;
+        });
+        
+        mapImage.addEventListener('mouseenter', () => {
+            mapImage.style.transform = 'scale(1.05)';
+            mapImage.style.transition = 'transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
+        });
+        
+        mapImage.addEventListener('mouseleave', () => {
+            mapImage.style.transform = 'scale(1)';
+        });
+    }
+</script>
+</body></html>
+
+<!-- Your Personalized Journey -->
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Secret Waterfalls &amp; Berber Culture | Tanmiya Explorer</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700;800&amp;family=Hanken+Grotesk:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .zellige-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 0l5 15h15l-12 9 5 15-13-10-13 10 5-15-12-9h15z' fill='%23006875' fill-opacity='0.03' fill-rule='evenodd'/%3E%3C/svg%3E");
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error": "#ffffff",
+                        "inverse-on-surface": "#eff1f2",
+                        "background": "#f8fafb",
+                        "on-tertiary-fixed-variant": "#464747",
+                        "on-background": "#191c1d",
+                        "on-primary": "#ffffff",
+                        "secondary-container": "#c0e7ed",
+                        "on-secondary-container": "#44686e",
+                        "inverse-surface": "#2e3132",
+                        "tertiary-container": "#d1d0d0",
+                        "inverse-primary": "#00daf3",
+                        "tertiary-fixed-dim": "#c7c6c6",
+                        "surface": "#f8fafb",
+                        "surface-container-low": "#f2f4f5",
+                        "outline-variant": "#bac9cc",
+                        "on-surface-variant": "#3b494c",
+                        "outline": "#6b7a7d",
+                        "on-primary-fixed-variant": "#004f58",
+                        "on-tertiary": "#ffffff",
+                        "surface-bright": "#f8fafb",
+                        "on-primary-fixed": "#001f24",
+                        "surface-variant": "#e1e3e4",
+                        "error-container": "#ffdad6",
+                        "on-primary-container": "#00626e",
+                        "secondary-fixed": "#c3e9f0",
+                        "on-secondary-fixed-variant": "#274c51",
+                        "surface-dim": "#d8dadb",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary": "#40646a",
+                        "tertiary-fixed": "#e4e2e2",
+                        "tertiary": "#5e5e5e",
+                        "on-secondary": "#ffffff",
+                        "surface-container": "#eceeef",
+                        "primary-fixed": "#9cf0ff",
+                        "primary": "#006875",
+                        "on-tertiary-container": "#595959",
+                        "error": "#ba1a1a",
+                        "primary-fixed-dim": "#00daf3",
+                        "primary-container": "#00e5ff",
+                        "on-secondary-fixed": "#001f23",
+                        "on-surface": "#191c1d",
+                        "surface-container-high": "#e6e8e9",
+                        "surface-container-highest": "#e1e3e4",
+                        "secondary-fixed-dim": "#a7cdd3",
+                        "on-tertiary-fixed": "#1b1c1c",
+                        "on-error-container": "#93000a",
+                        "surface-tint": "#006875"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "container-max": "1280px",
+                        "margin-desktop": "64px",
+                        "margin-mobile": "20px",
+                        "unit": "8px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Bricolage Grotesque"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "label-sm": ["Hanken Grotesk"],
+                        "headline-md": ["Bricolage Grotesque"],
+                        "body-sm": ["Hanken Grotesk"],
+                        "headline-lg": ["Bricolage Grotesque"],
+                        "label-md": ["Hanken Grotesk"],
+                        "headline-sm": ["Bricolage Grotesque"],
+                        "headline-xl": ["Bricolage Grotesque"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "label-sm": ["12px", {"lineHeight": "1", "letterSpacing": "0.02em", "fontWeight": "600"}],
+                        "headline-md": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                        "headline-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                        "label-md": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "headline-sm": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                        "headline-xl": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}]
+                    }
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background text-on-surface font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed-variant">
+<!-- Top Navigation Bar -->
+<header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md shadow-sm shadow-primary/5 transition-all duration-300">
+<nav class="flex justify-between items-center px-gutter py-4 max-w-container-max mx-auto">
+<div class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight">Tanmiya Explorer</div>
+<!-- Desktop Navigation -->
+<div class="hidden md:flex items-center gap-8 font-body-md text-body-md">
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Discover</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Plan</a>
+<a class="text-primary font-bold border-b-2 border-primary pb-1" href="#">Trips</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Artisans</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden md:block px-4 py-2 text-primary font-bold hover:bg-surface-variant/50 transition-all rounded-lg">Guide Mode</button>
+<button class="px-6 py-2 bg-primary text-on-primary rounded-full font-bold shadow-md hover:shadow-lg active:scale-95 transition-all">Sign In</button>
+</div>
+</nav>
+</header>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative h-[716px] w-full overflow-hidden">
+<div class="absolute inset-0 z-0" data-alt="A majestic landscape of the Middle Atlas Mountains in Morocco during golden hour. In the foreground, a crystal clear hidden waterfall cascades over mossy terracotta rocks into a turquoise pool. The surrounding vegetation is lush with olive trees and vibrant wildflowers under a soft, hazy amber sky. The photographic style is high-end travel editorial with deep contrasts and warm earth tones." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBT2mTZH_ZlzEHtUuR5wl1MCapAaUh4QSCW6IPb1ccfayWjuST4DDbXD9Y2jk-h3eQDWxkhQnPh7-tmAaOQCSssb2kbNPPIJRrwCnUZuNlWg-Rv6OvyQITAsczCAG4po9ysEZlkaORRakGl8lWQo0_LnKoh4cSodN-LmAh6a19VNQLsFZnsTl-tawTyT6TvIqDm0XyNRA-sySHgxwJI3NdNhuj_1iCIXukt__-SgLOqyXDLhDf8HwO0')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-black/20 z-10"></div>
+<div class="relative z-20 h-full max-w-container-max mx-auto px-gutter flex flex-col justify-end pb-16">
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="px-3 py-1 bg-secondary-container text-on-secondary-container rounded-full font-label-md text-label-md">Adventure</span>
+<span class="px-3 py-1 bg-tertiary-fixed text-on-tertiary-fixed-variant rounded-full font-label-md text-label-md">Cultural Heritage</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface max-w-3xl leading-tight">Secret Waterfalls &amp; Berber Culture</h1>
+<div class="flex items-center gap-4 mt-4 text-on-surface-variant">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold">4.9</span>
+<span class="text-label-sm">(128 Reviews)</span>
+</div>
+<span class="text-outline-variant">|</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined">schedule</span>
+<span>Full Day Tour</span>
+</div>
+<span class="text-outline-variant">|</span>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined">location_on</span>
+<span>Béni Mellal Region</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Content Grid -->
+<section class="max-w-container-max mx-auto px-gutter py-16 grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Left Column: Details & Itinerary -->
+<div class="lg:col-span-8 space-y-16">
+<!-- Overview -->
+<div class="space-y-6">
+<h2 class="font-headline-md text-headline-md text-primary">An Immersive Journey</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+                    Escape the crowds and venture into the heart of the Atlas Mountains. This curated experience takes you through ancient cedar forests to discover hidden waterfalls known only to local shepherds. Experience the warmth of Berber hospitality as we join a local family for a traditional lunch in a remote mountain village.
+                </p>
+</div>
+<!-- Bento Grid Highlights -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="p-8 rounded-xl bg-surface-container-low border border-outline-variant/20 shadow-sm">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">waves</span>
+<h3 class="font-headline-sm text-headline-sm mb-2 text-on-surface">Hidden Waters</h3>
+<p class="text-on-surface-variant font-body-md">Access three secluded waterfall sites with private swimming opportunities in mineral-rich mountain pools.</p>
+</div>
+<div class="p-8 rounded-xl bg-secondary-container/30 border border-secondary/10 shadow-sm">
+<span class="material-symbols-outlined text-secondary text-4xl mb-4">4g_mobiledata</span>
+<h3 class="font-headline-sm text-headline-sm mb-2 text-on-surface">Authentic Living</h3>
+<p class="text-on-surface-variant font-body-md">Step inside a traditional Berber home to learn about ancient weaving techniques and mountain life.</p>
+</div>
+</div>
+<!-- Itinerary with Timeline -->
+<div class="space-y-8">
+<h2 class="font-headline-md text-headline-md text-primary">Your Itinerary</h2>
+<div class="space-y-0 relative before:content-[''] before:absolute before:left-[19px] before:top-2 before:bottom-2 before:w-[2px] before:bg-outline-variant/30">
+<!-- Step 1 -->
+<div class="relative pl-14 pb-12">
+<div class="absolute left-0 top-1 w-10 h-10 rounded-full bg-primary flex items-center justify-center text-on-primary z-10">
+<span class="font-bold">08</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm mb-2 text-on-surface">Departure from Béni Mellal</h4>
+<p class="text-on-surface-variant font-body-md">Meet your guide at the historic Kasbah Bel-Kouch. Private 4x4 transport into the Atlas foothills.</p>
+</div>
+<!-- Step 2 -->
+<div class="relative pl-14 pb-12">
+<div class="absolute left-0 top-1 w-10 h-10 rounded-full bg-surface-container-highest border-2 border-primary flex items-center justify-center text-primary z-10">
+<span class="font-bold">10</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm mb-2 text-on-surface">The Hidden Cascades</h4>
+<p class="text-on-surface-variant font-body-md">A moderate 45-minute hike through limestone canyons leads to our first secret waterfall. Plenty of time for swimming and photography.</p>
+<div class="mt-4 rounded-xl overflow-hidden aspect-video relative group">
+<img class="object-cover w-full h-full group-hover:scale-105 transition-transform duration-700" data-alt="A photograph of a narrow limestone canyon in the Moroccan Atlas mountains. Sunlight filters through the top of the canyon, illuminating a small turquoise stream that winds between warm, terracotta-colored boulders. The mood is peaceful and adventurous, with a focus on geological textures and clear water." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5wrOppUv8nUrKYnhGU6JfhB9ol-0tJ_8AQBfxsmL9a6r-iMSvhPF7iO0zrAhPCBqLOkM_QUmHblSQbfGao5DKcOcCx5jxf8KQdK7OOndj2txblKvoOXEv1AodTjOHDiXvIvmkQwPwva3O7GDx4medPp2uH4q5a6BV_3W4Q6nPrtLf3D53IUZPcT0XTzdbjH7UiBbqTfCmBiaaRv-Qaj5JVllJbPWIWJPve3UTymTIiOhB3cXN2m6b"/>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="relative pl-14 pb-12">
+<div class="absolute left-0 top-1 w-10 h-10 rounded-full bg-surface-container-highest border-2 border-primary flex items-center justify-center text-primary z-10">
+<span class="font-bold">13</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm mb-2 text-on-surface">Berber Village Lunch</h4>
+<p class="text-on-surface-variant font-body-md">Enjoy a slow-cooked mountain lamb tagine with freshly baked bread in the village of Aït Bouali.</p>
+</div>
+</div>
+</div>
+<!-- Interactive Map Section -->
+<div class="rounded-2xl overflow-hidden shadow-lg border border-outline-variant/30 bg-surface-container h-[400px] relative">
+<div class="absolute inset-0 opacity-80 mix-blend-multiply z-0 zellige-pattern"></div>
+<!-- Placeholder for Map -->
+<div class="absolute inset-0 flex flex-col items-center justify-center p-12 text-center">
+<div class="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center mb-4">
+<span class="material-symbols-outlined text-primary text-5xl">map</span>
+</div>
+<h3 class="font-headline-sm text-primary">Interactive Trail Map</h3>
+<p class="max-w-md text-on-surface-variant font-body-md">Explore the route from Béni Mellal to the Cascades of Ouzoud and the surrounding hidden trails.</p>
+<div class="mt-6 flex gap-4">
+<div class="px-4 py-2 bg-surface rounded-lg shadow-sm flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-primary"></span>
+<span class="text-label-sm font-bold">Trailhead</span>
+</div>
+<div class="px-4 py-2 bg-surface rounded-lg shadow-sm flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-secondary"></span>
+<span class="text-label-sm font-bold">Waterfalls</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Guide Profile -->
+<div class="p-8 rounded-2xl bg-surface-container-high border border-outline-variant/20 flex flex-col md:flex-row gap-8 items-center">
+<div class="w-32 h-32 rounded-full overflow-hidden shrink-0 border-4 border-white shadow-md">
+<img class="w-full h-full object-cover" data-alt="A portrait of a friendly Moroccan mountain guide in his late 40s. He has a warm smile, sun-weathered skin, and is wearing a traditional blue Berber scarf (shash) and a modern outdoor hiking jacket. Behind him are the soft peaks of the Atlas mountains. The lighting is soft morning sun, giving a trustworthy and welcoming vibe." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBygjg3mP4CFD4HgCPnruUh_LsNr-xCXY_atwdFHz8bdZS9V32PW_CmiyGLeZ4CsXWbi2PsCzg33VeiF_MKP1woc7zQDftFyTdZ_JM1GcjKKIYt6wJonIq5c5svHrZTKdMHZlqKiJFkhcmdUb3hSzQzxX-Wj6gCKxfi5ZsvBwxWm-yUHgTZU9yoTS47lQYwlcgaeKtUqhbhhDoAxPUsBozqJz6V7bigS1mmscwNyoEc73BWBXIqNymW"/>
+</div>
+<div class="space-y-2 text-center md:text-left">
+<div class="flex items-center justify-center md:justify-start gap-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Meet your guide, Brahim</h3>
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<div class="flex items-center justify-center md:justify-start gap-1 text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold">5.0</span>
+<span class="text-on-surface-variant text-label-sm ml-2">(45 Tours Completed)</span>
+</div>
+<p class="text-on-surface-variant font-body-md">"I have lived in these mountains my whole life. My joy is showing travelers the hidden soul of my homeland, from our sacred waters to our ancient Berber traditions."</p>
+</div>
+</div>
+</div>
+<!-- Right Column: Booking Widget -->
+<div class="lg:col-span-4">
+<div class="sticky top-28 space-y-6">
+<div class="glass-card p-8 rounded-3xl shadow-xl shadow-primary/5 border border-white/50">
+<div class="flex justify-between items-end mb-8">
+<div>
+<span class="text-label-sm text-on-surface-variant uppercase tracking-widest font-bold">Price per person</span>
+<div class="flex items-baseline gap-1">
+<span class="text-headline-lg text-primary font-bold">MAD 850</span>
+</div>
+</div>
+<div class="bg-secondary-container px-3 py-1 rounded-lg text-on-secondary-container font-label-md">
+                            Best Value
+                        </div>
+</div>
+<form class="space-y-6">
+<!-- Date Picker -->
+<div class="space-y-2">
+<label class="font-label-md text-on-surface-variant">Select Date</label>
+<div class="relative">
+<input class="w-full bg-surface-container-lowest border border-outline-variant/30 rounded-xl px-4 py-3 focus:ring-primary focus:border-primary appearance-none font-body-md" type="date"/>
+<span class="absolute right-4 top-3.5 material-symbols-outlined text-outline pointer-events-none">calendar_today</span>
+</div>
+</div>
+<!-- Group Size -->
+<div class="space-y-2">
+<label class="font-label-md text-on-surface-variant">Group Size</label>
+<div class="flex items-center justify-between p-3 bg-surface-container-lowest border border-outline-variant/30 rounded-xl">
+<button class="w-10 h-10 rounded-lg hover:bg-surface-variant flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined">remove</span>
+</button>
+<span class="font-bold text-lg font-headline-sm">2 Guests</span>
+<button class="w-10 h-10 rounded-lg hover:bg-surface-variant flex items-center justify-center transition-colors" type="button">
+<span class="material-symbols-outlined">add</span>
+</button>
+</div>
+</div>
+<!-- Summary -->
+<div class="pt-6 border-t border-outline-variant/10 space-y-2 font-body-md">
+<div class="flex justify-between text-on-surface-variant">
+<span>MAD 850 x 2 guests</span>
+<span>MAD 1,700</span>
+</div>
+<div class="flex justify-between text-on-surface-variant">
+<span>Service fee</span>
+<span>MAD 85</span>
+</div>
+<div class="flex justify-between font-bold text-lg pt-2 text-primary font-headline-sm">
+<span>Total</span>
+<span>MAD 1,785</span>
+</div>
+</div>
+<button class="w-full py-4 bg-primary text-on-primary rounded-xl font-bold text-lg shadow-lg shadow-primary/20 hover:shadow-xl hover:-translate-y-0.5 active:scale-95 transition-all font-headline-sm" type="submit">
+                            Confirm Booking
+                        </button>
+</form>
+<p class="text-center text-label-sm text-on-surface-variant mt-6">
+                        Free cancellation up to 48 hours before the tour.
+                    </p>
+</div>
+<!-- Trust Badge -->
+<div class="flex items-center gap-4 p-4 rounded-xl bg-surface-container-lowest border border-outline-variant/10">
+<div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+</div>
+<div>
+<p class="font-bold text-label-md text-on-surface">Explorer Guarantee</p>
+<p class="text-label-sm text-on-surface-variant">Secure payments and verified guides.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Recommended Related Trips -->
+<section class="bg-surface-container-low py-20">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="flex justify-between items-end mb-12">
+<div>
+<h2 class="font-headline-md text-headline-md text-primary">Similar Adventures</h2>
+<p class="text-on-surface-variant font-body-md">Continue your journey through the Middle Atlas.</p>
+</div>
+<button class="text-primary font-bold flex items-center gap-2 hover:gap-3 transition-all font-label-md">
+                    View All <span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="group bg-surface rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all">
+<div class="aspect-[4/3] overflow-hidden relative">
+<img class="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700" data-alt="A sun-drenched view of Ouzoud Falls in Morocco. The massive multi-tiered waterfall is surrounded by olive trees and rocky paths. Rainbows are visible in the mist. The style is bright, saturated, and evocative of a warm summer afternoon in North Africa." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlusb3gkinlEoQY0x4aytW9rZ64DMFGliBjbTaiUaS-It8fmSA2XMZiUsKLgJaasHHYZpMy1jg_lU0TDGWUKi2PhZjPlLZkwwJmWFfTVuj1mWpeUljYbaZdr7iJcUVevb2C6p9s2pSFJqE3f5JsVvfQfHADlanaAWv5rLpB6nzG7otz-He-T4bzuNKgsHI-PLvUgr76yJ8nKeSx-DfDFMxYwO7rRWJbW2U2gbhT9BQMTzV16eqG6Xm"/>
+<div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-lg text-label-sm font-bold shadow-sm">From MAD 450</div>
+</div>
+<div class="p-6 space-y-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Ouzoud Falls Day Trip</h3>
+<p class="text-label-sm text-on-surface-variant flex items-center gap-1 font-body-sm">
+<span class="material-symbols-outlined text-sm">location_on</span> Azilal Province
+                        </p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group bg-surface rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all">
+<div class="aspect-[4/3] overflow-hidden relative">
+<img class="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700" data-alt="A wide panoramic shot of the Bin El Ouidane dam and lake in Morocco. The water is a brilliant sapphire blue, framed by red earth mountains and sparse green scrub. A small white boat creates a gentle wake in the distance. The lighting is crisp and clear, emphasizing the contrast between the water and the arid landscape." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwELiQ1aBGzz1cdWWjeYmR3Gpa6fkgc01PbuFRWu8IVGSY3ZyVhMadCRSg0VO_EOSW5VY1kIlR3AZ8O2XW01UDaJ_HNuGVbomkSvPL01fmNyBLswuEHPDRUj4m5g5Y3rQc0aPIBr8R2EftjlIGvg75xGTNN-QkjSRjFK7wT47sa7tEy09bMR_s6hD2NMwFu6Wfn1-BCWVgbpdfI6qatKbrPgzlF_Y1wAI1Vi6Rx8YTp7SMFP1qFTcc"/>
+<div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-lg text-label-sm font-bold shadow-sm">From MAD 1,200</div>
+</div>
+<div class="p-6 space-y-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Bin El Ouidane Kayaking</h3>
+<p class="text-label-sm text-on-surface-variant flex items-center gap-1 font-body-sm">
+<span class="material-symbols-outlined text-sm">location_on</span> Afourer
+                        </p>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group bg-surface rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-all">
+<div class="aspect-[4/3] overflow-hidden relative">
+<img class="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700" data-alt="Close up of traditional Moroccan artisan hands weaving a vibrant textile on a wooden loom. The threads are dyed in natural terracotta, olive, and indigo. The workshop is dimly lit with shafts of light highlighting the dust motes and the intricate wooden structure of the loom. Authentic, tactile, and culturally rich aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcd9qafqIZnQwhM4UzxgEeuBfh1kSENbHU7A7MrmiLQWhgQnIxYv8V1Gi1wF2gGuxg0UyNP3LMqIqpsBU_pQ9dQ2lZOBeaHrwvCp3O1VO6IoHUM_lDGDzFcqfM6x0S8hVjG9Kg1LtNFUshhNmX_tlAi3r0tk9Z6vH7dzF43ATiYBN58HdTdo_-Na59Aja1Fipvq1D2PRSpS-o8Et9LdeyFrTOUovSx12YBiQjoqLj8v_hAapDWfMX-"/>
+<div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-lg text-label-sm font-bold shadow-sm">From MAD 600</div>
+</div>
+<div class="p-6 space-y-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Textile Workshop: Aït Bouali</h3>
+<p class="text-label-sm text-on-surface-variant flex items-center gap-1 font-body-sm">
+<span class="material-symbols-outlined text-sm">location_on</span> Mountain Villages
+                        </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full mt-auto bg-surface-container border-t border-outline-variant/10">
+<div class="flex flex-col md:flex-row justify-between items-center px-margin-desktop py-12 gap-8 max-w-container-max mx-auto">
+<div class="space-y-4 text-center md:text-left">
+<div class="font-headline-sm text-headline-sm text-primary">Tanmiya Explorer</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant max-w-xs">© 2024 Tanmiya Explorer. Smart Tourism for Béni Mellal–Khénifra.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-8 font-label-sm text-label-sm">
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Heritage Sites</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Mountain Trails</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Craft Villages</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Contact Us</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors" href="#">Privacy Policy</a>
+</div>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-surface-variant/50 flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all" href="#">
+<span class="material-symbols-outlined">language</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-surface-variant/50 flex items-center justify-center text-primary hover:bg-primary hover:text-on-primary transition-all" href="#">
+<span class="material-symbols-outlined">share</span>
+</a>
+</div>
+</div>
+</footer>
+<script>
+    // Simple Interaction logic for Booking Widget
+    const guestCountElement = document.querySelector('span.font-bold.text-lg');
+    let guests = 2;
+    const pricePerPerson = 850;
+    const serviceFee = 85;
+
+    document.querySelectorAll('button[type="button"]').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const icon = btn.querySelector('.material-symbols-outlined').textContent;
+            if(icon === 'add') guests++;
+            if(icon === 'remove' && guests > 1) guests--;
+            
+            guestCountElement.textContent = `${guests} Guest${guests > 1 ? 's' : ''}`;
+            
+            // Update pricing (simplified)
+            const totalBase = guests * pricePerPerson;
+            const totalWithFee = totalBase + serviceFee;
+            
+            document.querySelector('.space-y-2 div:nth-child(1) span:nth-child(1)').textContent = `MAD ${pricePerPerson} x ${guests} guests`;
+            document.querySelector('.space-y-2 div:nth-child(1) span:nth-child(2)').textContent = `MAD ${totalBase.toLocaleString()}`;
+            document.querySelector('.pt-2 span:nth-child(2)').textContent = `MAD ${totalWithFee.toLocaleString()}`;
+        });
+    });
+
+    // Header scroll effect
+    window.addEventListener('scroll', () => {
+        const header = document.querySelector('header');
+        if (window.scrollY > 50) {
+            header.classList.add('py-2', 'bg-surface/95', 'shadow-md');
+            header.classList.remove('py-4', 'bg-surface/80');
+        } else {
+            header.classList.remove('py-2', 'bg-surface/95', 'shadow-md');
+            header.classList.add('py-4', 'bg-surface/80');
+        }
+    });
+</script>
+</body></html>
+
+<!-- Experience Detail & Booking -->
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Guide Dashboard | Tanmiya Explorer</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;700;800&amp;family=Hanken+Grotesk:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Configuration -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error": "#ffffff",
+                        "inverse-on-surface": "#eff1f2",
+                        "background": "#f8fafb",
+                        "on-tertiary-fixed-variant": "#464747",
+                        "on-background": "#191c1d",
+                        "on-primary": "#ffffff",
+                        "secondary-container": "#c0e7ed",
+                        "on-secondary-container": "#44686e",
+                        "inverse-surface": "#2e3132",
+                        "tertiary-container": "#d1d0d0",
+                        "inverse-primary": "#00daf3",
+                        "tertiary-fixed-dim": "#c7c6c6",
+                        "surface": "#f8fafb",
+                        "surface-container-low": "#f2f4f5",
+                        "outline-variant": "#bac9cc",
+                        "on-surface-variant": "#3b494c",
+                        "outline": "#6b7a7d",
+                        "on-primary-fixed-variant": "#004f58",
+                        "on-tertiary": "#ffffff",
+                        "surface-bright": "#f8fafb",
+                        "on-primary-fixed": "#001f24",
+                        "surface-variant": "#e1e3e4",
+                        "error-container": "#ffdad6",
+                        "on-primary-container": "#00626e",
+                        "secondary-fixed": "#c3e9f0",
+                        "on-secondary-fixed-variant": "#274c51",
+                        "surface-dim": "#d8dadb",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary": "#40646a",
+                        "tertiary-fixed": "#e4e2e2",
+                        "tertiary": "#5e5e5e",
+                        "on-secondary": "#ffffff",
+                        "surface-container": "#eceeef",
+                        "primary-fixed": "#9cf0ff",
+                        "primary": "#006875",
+                        "on-tertiary-container": "#595959",
+                        "error": "#ba1a1a",
+                        "primary-fixed-dim": "#00daf3",
+                        "primary-container": "#00e5ff",
+                        "on-secondary-fixed": "#001f23",
+                        "on-surface": "#191c1d",
+                        "surface-container-high": "#e6e8e9",
+                        "surface-container-highest": "#e1e3e4",
+                        "secondary-fixed-dim": "#a7cdd3",
+                        "on-tertiary-fixed": "#1b1c1c",
+                        "on-error-container": "#93000a",
+                        "surface-tint": "#006875"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "container-max": "1280px",
+                        "margin-desktop": "64px",
+                        "margin-mobile": "20px",
+                        "unit": "8px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Bricolage Grotesque"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "label-sm": ["Hanken Grotesk"],
+                        "headline-md": ["Bricolage Grotesque"],
+                        "body-sm": ["Hanken Grotesk"],
+                        "headline-lg": ["Bricolage Grotesque"],
+                        "label-md": ["Hanken Grotesk"],
+                        "headline-sm": ["Bricolage Grotesque"],
+                        "headline-xl": ["Bricolage Grotesque"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "label-sm": ["12px", {"lineHeight": "1", "letterSpacing": "0.02em", "fontWeight": "600"}],
+                        "headline-md": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                        "headline-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                        "label-md": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "headline-sm": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                        "headline-xl": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .zellige-pattern {
+            background-color: transparent;
+            background-image: radial-gradient(#006875 0.5px, transparent 0.5px), radial-gradient(#006875 0.5px, transparent 0.5px);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
+            opacity: 0.05;
+        }
+        body { font-family: 'Hanken Grotesk', sans-serif; }
+        h1, h2, h3, h4, .font-headline { font-family: 'Bricolage Grotesque', sans-serif; }
+    </style>
+</head>
+<body class="bg-background text-on-surface min-h-screen flex flex-col">
+<!-- TopNavBar Navigation Shell -->
+<header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant/30">
+<nav class="flex justify-between items-center px-gutter py-4 max-w-container-max mx-auto">
+<div class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight">Tanmiya Explorer</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="#">Discover</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="#">Plan</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="#">Trips</a>
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-body-md text-body-md" href="#">Artisans</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden md:block text-on-surface-variant hover:bg-secondary-container/30 px-4 py-2 rounded-lg transition-all font-label-md text-label-md">Guide Mode</button>
+<div class="w-10 h-10 rounded-full overflow-hidden border-2 border-primary/20 hover:scale-95 duration-200 cursor-pointer">
+<img class="w-full h-full object-cover" data-alt="A professional portrait of a Moroccan travel guide in contemporary local attire" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMvnQlRzedJ9ILX75obZbbgTTQ8OjgSl4eUoS9sPaAHGnxOQc--4Ud3Unt-_Sq52iN3vv1UIKZSkeX_swke6OMjOOEcdVWn4plz3NRaRffFSAfQZuH3Z55m1JRUAOc2F5ZETPKILfTRYhlmNpdJIKhZ9-7OewfKG3X31to2D00QweV7jdDqMreo5Yo79yWYHO7K6DZedyg9s9kur2YLPCykTwcL1BbNqlQcwAhEBGHY62_PyU2Z_Yz"/>
+</div>
+</div>
+</nav>
+</header>
+<main class="flex-grow pt-24 pb-12 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto w-full relative">
+<!-- Background Decor -->
+<div class="absolute inset-0 zellige-pattern pointer-events-none"></div>
+<!-- Header Section -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12 relative z-10">
+<div>
+<p class="text-primary font-label-md text-label-md uppercase tracking-widest mb-2 font-semibold">Welcome Back, Omar</p>
+<h1 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">Guide Dashboard</h1>
+</div>
+<button class="flex items-center gap-2 bg-primary-container text-on-primary-container px-8 py-4 rounded-xl font-label-md text-label-md hover:shadow-xl hover:shadow-primary/20 transition-all active:scale-95">
+<span class="material-symbols-outlined" data-icon="add_circle">add_circle</span>
+            Create New Trip Program
+        </button>
+</div>
+<!-- Bento Grid Stats & Content -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter relative z-10">
+<!-- Quick Stats -->
+<div class="md:col-span-8 grid grid-cols-2 lg:grid-cols-4 gap-4">
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/30 shadow-sm">
+<span class="text-secondary material-symbols-outlined mb-2" data-icon="event_available">event_available</span>
+<p class="text-on-surface-variant font-label-sm text-label-sm">Active Bookings</p>
+<p class="font-headline-sm text-headline-sm text-on-surface">12</p>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/30 shadow-sm">
+<span class="text-primary material-symbols-outlined mb-2" data-icon="payments">payments</span>
+<p class="text-on-surface-variant font-label-sm text-label-sm">Monthly Revenue</p>
+<p class="font-headline-sm text-headline-sm text-on-surface">MAD 8,400</p>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/30 shadow-sm">
+<span class="text-secondary material-symbols-outlined mb-2" data-icon="star">star</span>
+<p class="text-on-surface-variant font-label-sm text-label-sm">Avg. Rating</p>
+<p class="font-headline-sm text-headline-sm text-on-surface">4.9</p>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-xl border border-outline-variant/30 shadow-sm">
+<span class="text-outline material-symbols-outlined mb-2" data-icon="forum">forum</span>
+<p class="text-on-surface-variant font-label-sm text-label-sm">Unread Msgs</p>
+<p class="font-headline-sm text-headline-sm text-on-surface">5</p>
+</div>
+</div>
+<!-- Active Bookings List -->
+<div class="md:col-span-8 bg-surface-container-lowest p-8 rounded-2xl border border-outline-variant/30 shadow-sm overflow-hidden">
+<div class="flex items-center justify-between mb-8">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Upcoming Expeditions</h2>
+<a class="text-primary font-label-md text-label-md hover:underline decoration-2" href="#">View All</a>
+</div>
+<div class="space-y-6">
+<!-- Booking Item 1 -->
+<div class="flex flex-col sm:flex-row items-start sm:items-center gap-6 p-4 rounded-xl hover:bg-surface-container-low transition-colors group border border-transparent hover:border-outline-variant/30">
+<div class="w-20 h-20 rounded-lg overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Atlas mountains at sunset" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBV7jozNVDkPJAxuMap4JMgY2Oce-rF0pxduKuGIu7GU0EIDKXNIFzUURvsN2HeG7LZIMzVfbDoi0gxql_YyzWkO21PAR4kbNLPp-008UsBauxUKxmw9YZJl33YKt_7aXYfzQ3meU1b-BAyAIlmgxtVepHlmUGuukN21Xmr1ibglCXt56vqNEodLoHWT_ljGmHbfCOk0i5QkUJH9deVfDdcTmX7tc7l531R2skWHTK6Qvp2IsfHfO_m"/>
+</div>
+<div class="flex-grow">
+<h3 class="font-headline-sm text-[20px] text-on-surface">Ouzoud Waterfalls Explorer</h3>
+<div class="flex flex-wrap gap-4 mt-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]" data-icon="calendar_today">calendar_today</span> Oct 24, 2024</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]" data-icon="group">group</span> 4 Travelers</span>
+<span class="flex items-center gap-1 text-primary font-bold uppercase tracking-wider">Confirmed</span>
+</div>
+</div>
+<button class="bg-surface-container-high text-on-surface-variant px-6 py-2 rounded-lg font-label-md text-label-md hover:bg-primary hover:text-white transition-all">Details</button>
+</div>
+<!-- Booking Item 2 -->
+<div class="flex flex-col sm:flex-row items-start sm:items-center gap-6 p-4 rounded-xl hover:bg-surface-container-low transition-colors group border border-transparent hover:border-outline-variant/30">
+<div class="w-20 h-20 rounded-lg overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Moroccan Zellige tiles" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBADmTACJ1p3dYL9LHDd-nlLulwqKoHW2D9xbIY29RIsVRgamxHt-qSQxMmhw-WUs2dtvOIqV19GelSfIREraTaSpUgdQS6HVotFTVo_EOj2SCz8zYylsHDVbCtFdIMQ5eKhohMD2VSbei-76olqSX7t_B4O5S052FqSZ08pq6uJbPvzvsuv3cOKGo4lBVdx2vpKBt105tLAkWwlmaW8XAWaGnpNK8GOLMGQ20Ev3NDMn54JLJCATwU"/>
+</div>
+<div class="flex-grow">
+<h3 class="font-headline-sm text-[20px] text-on-surface">Beni Mellal Craft Trail</h3>
+<div class="flex flex-wrap gap-4 mt-1 text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]" data-icon="calendar_today">calendar_today</span> Oct 28, 2024</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]" data-icon="group">group</span> 2 Travelers</span>
+<span class="flex items-center gap-1 text-secondary font-bold uppercase tracking-wider">Pending</span>
+</div>
+</div>
+<button class="bg-surface-container-high text-on-surface-variant px-6 py-2 rounded-lg font-label-md text-label-md hover:bg-primary hover:text-white transition-all">Review</button>
+</div>
+</div>
+</div>
+<!-- Messages Section -->
+<div class="md:col-span-4 bg-surface-container-lowest p-8 rounded-2xl border border-outline-variant/30 shadow-sm flex flex-col h-full">
+<div class="flex items-center justify-between mb-8">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Inquiries</h2>
+<div class="bg-primary-container text-on-primary-container px-3 py-1 rounded-full text-[12px] font-bold">5 NEW</div>
+</div>
+<div class="space-y-6 flex-grow">
+<!-- Message Item 1 -->
+<div class="flex items-start gap-4 p-3 cursor-pointer hover:bg-surface-container-low rounded-xl transition-all group">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-bold flex-shrink-0 font-headline">S</div>
+<div>
+<div class="flex justify-between items-center mb-1">
+<span class="font-body-md text-body-md text-on-surface font-semibold">Sarah Jenkins</span>
+<span class="text-on-surface-variant font-label-sm text-[10px]">2h ago</span>
+</div>
+<p class="text-on-surface-variant font-body-sm text-body-sm line-clamp-2 italic">"Hi Omar! We are interested in the hidden trail through the M'goun valley. Is it suitable for teenagers?"</p>
+</div>
+</div>
+<!-- Message Item 2 -->
+<div class="flex items-start gap-4 p-3 cursor-pointer hover:bg-surface-container-low rounded-xl transition-all">
+<div class="w-10 h-10 rounded-full bg-primary-fixed text-on-primary-fixed flex items-center justify-center font-bold flex-shrink-0 font-headline">M</div>
+<div>
+<div class="flex justify-between items-center mb-1">
+<span class="font-body-md text-body-md text-on-surface font-semibold">Marc Dupont</span>
+<span class="text-on-surface-variant font-label-sm text-[10px]">6h ago</span>
+</div>
+<p class="text-on-surface-variant font-body-sm text-body-sm line-clamp-2 italic">"Confirming our meeting at the Kasbah gate at 9 AM tomorrow. See you then!"</p>
+</div>
+</div>
+</div>
+<button class="w-full mt-8 border-2 border-outline-variant text-on-surface-variant font-label-md text-label-md py-4 rounded-xl hover:bg-surface-variant transition-all hover:text-on-surface">Open Messenger</button>
+</div>
+<!-- Marketing / Program Growth Section -->
+<div class="md:col-span-12 mt-4">
+<div class="relative rounded-3xl overflow-hidden min-h-[300px] flex flex-col justify-center p-12">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="Moroccan valley vista" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaCl7_PvKY7Q6tiCgix0uohz8Zb5mIlmVfFkx9ZftmVvJWQ1_tuFBbnrOBitN6Ly3oS-D_c0TV1UdMspdioXK5em02RDELPPkC7sRO58Z6IzNF6gER-4VvHGS2BuHe-fnXY3Rhciv-Uk3XTh93BxP9muT09d9AtLCrs6_QOg0VhdvLtWpW4hYJSXIG8_H00Von6anpGqXCeWvLOP0e7FT-xsYwO1bofp_rLWE2EPnp1-poesZBOAfZ"/>
+<div class="absolute inset-0 bg-gradient-to-r from-primary/80 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-xl text-on-primary">
+<h2 class="font-headline-lg text-headline-md md:text-[40px] mb-4">Grow your Reach in the Atlas</h2>
+<p class="font-body-lg text-body-lg mb-8 opacity-90">Our new 'Artisan Spotlight' feature allows you to link your trips with local craft workshops, increasing booking visibility by 35%.</p>
+<button class="bg-surface-container-lowest text-primary px-8 py-3 rounded-full font-label-md text-label-md shadow-lg hover:scale-105 transition-transform">Explore Opportunities</button>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer Navigation Shell -->
+<footer class="w-full mt-auto bg-surface-container-low border-t border-outline-variant/30">
+<div class="flex flex-col md:flex-row justify-between items-center px-margin-desktop py-12 gap-8 max-w-container-max mx-auto">
+<div class="font-headline-sm text-headline-sm text-primary">Tanmiya Explorer</div>
+<div class="flex flex-wrap justify-center gap-8 font-label-md text-label-md">
+<a class="text-on-surface-variant hover:text-primary hover:underline decoration-2 transition-all" href="#">Heritage Sites</a>
+<a class="text-on-surface-variant hover:text-primary hover:underline decoration-2 transition-all" href="#">Mountain Trails</a>
+<a class="text-on-surface-variant hover:text-primary hover:underline decoration-2 transition-all" href="#">Craft Villages</a>
+<a class="text-on-surface-variant hover:text-primary hover:underline decoration-2 transition-all" href="#">Contact Us</a>
+</div>
+<p class="text-on-surface-variant font-label-sm text-label-sm text-center md:text-right max-w-xs">
+            © 2024 Tanmiya Explorer. Smart Tourism for Béni Mellal–Khénifra.
+        </p>
+</div>
+</footer>
+<!-- Interactive script for dashboard micro-interactions -->
+<script>
+    // Floating Action Button logic
+    const fabVisible = true;
+    if (fabVisible) {
+        const fab = document.createElement('button');
+        fab.className = "fixed bottom-8 right-8 w-14 h-14 bg-primary text-on-primary rounded-full shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all z-[100] md:hidden";
+        fab.innerHTML = '<span class="material-symbols-outlined" data-icon="add">add</span>';
+        document.body.appendChild(fab);
+    }
+</script>
+</body></html>
+
+<!-- Guide Management Portal -->
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Artisan Directory | Tanmiya Explorer</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&amp;family=Hanken+Grotesk:wght@400;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Configuration -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                "on-error": "#ffffff",
+                "inverse-on-surface": "#eff1f2",
+                "background": "#f8fafb",
+                "on-tertiary-fixed-variant": "#464747",
+                "on-background": "#191c1d",
+                "on-primary": "#ffffff",
+                "secondary-container": "#c0e7ed",
+                "on-secondary-container": "#44686e",
+                "inverse-surface": "#2e3132",
+                "tertiary-container": "#d1d0d0",
+                "inverse-primary": "#00daf3",
+                "tertiary-fixed-dim": "#c7c6c6",
+                "surface": "#f8fafb",
+                "surface-container-low": "#f2f4f5",
+                "outline-variant": "#bac9cc",
+                "on-surface-variant": "#3b494c",
+                "outline": "#6b7a7d",
+                "on-primary-fixed-variant": "#004f58",
+                "on-tertiary": "#ffffff",
+                "surface-bright": "#f8fafb",
+                "on-primary-fixed": "#001f24",
+                "surface-variant": "#e1e3e4",
+                "error-container": "#ffdad6",
+                "on-primary-container": "#00626e",
+                "secondary-fixed": "#c3e9f0",
+                "on-secondary-fixed-variant": "#274c51",
+                "surface-dim": "#d8dadb",
+                "surface-container-lowest": "#ffffff",
+                "secondary": "#40646a",
+                "tertiary-fixed": "#e4e2e2",
+                "tertiary": "#5e5e5e",
+                "on-secondary": "#ffffff",
+                "surface-container": "#eceeef",
+                "primary-fixed": "#9cf0ff",
+                "primary": "#006875",
+                "on-tertiary-container": "#595959",
+                "error": "#ba1a1a",
+                "primary-fixed-dim": "#00daf3",
+                "primary-container": "#00e5ff",
+                "on-secondary-fixed": "#001f23",
+                "on-surface": "#191c1d",
+                "surface-container-high": "#e6e8e9",
+                "surface-container-highest": "#e1e3e4",
+                "secondary-fixed-dim": "#a7cdd3",
+                "on-tertiary-fixed": "#1b1c1c",
+                "on-error-container": "#93000a",
+                "surface-tint": "#006875"
+            },
+            "borderRadius": {
+                "DEFAULT": "0.25rem",
+                "lg": "0.5rem",
+                "xl": "0.75rem",
+                "full": "9999px"
+            },
+            "spacing": {
+                "container-max": "1280px",
+                "margin-desktop": "64px",
+                "margin-mobile": "20px",
+                "unit": "8px",
+                "gutter": "24px"
+            },
+            "fontFamily": {
+                "headline-lg-mobile": ["Bricolage Grotesque"],
+                "body-lg": ["Hanken Grotesk"],
+                "body-md": ["Hanken Grotesk"],
+                "label-sm": ["Hanken Grotesk"],
+                "headline-md": ["Bricolage Grotesque"],
+                "body-sm": ["Hanken Grotesk"],
+                "headline-lg": ["Bricolage Grotesque"],
+                "label-md": ["Hanken Grotesk"],
+                "headline-sm": ["Bricolage Grotesque"],
+                "headline-xl": ["Bricolage Grotesque"]
+            },
+            "fontSize": {
+                "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                "label-sm": ["12px", {"lineHeight": "1", "letterSpacing": "0.02em", "fontWeight": "600"}],
+                "headline-md": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                "body-sm": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                "headline-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                "label-md": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                "headline-sm": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                "headline-xl": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "800"}]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .zellige-pattern {
+            background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+            opacity: 0.05;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(186, 201, 204, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant/10">
+<div class="flex justify-between items-center px-gutter py-4 max-w-container-max mx-auto">
+<div class="font-headline-sm text-headline-sm text-primary font-bold tracking-tight">Tanmiya Explorer</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="#">Discover</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="#">Plan</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-body-md text-body-md" href="#">Trips</a>
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-body-md text-body-md" href="#">Artisans</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden lg:block text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md">Guide Mode</button>
+<button class="bg-primary text-on-primary px-6 py-2 rounded-xl font-label-md text-label-md active:scale-95 duration-200">Sign In</button>
+</div>
+</div>
+</nav>
+<main class="pt-24 pb-16">
+<!-- Hero Section -->
+<section class="relative px-margin-mobile md:px-margin-desktop mb-12">
+<div class="absolute inset-0 zellige-pattern pointer-events-none"></div>
+<div class="max-w-container-max mx-auto text-center md:text-left py-12">
+<h1 class="font-headline-xl text-headline-xl text-on-surface mb-4">The Custodians of Heritage</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">Connect directly with the master craftspeople of Béni Mellal–Khénifra. Every thread, clay vessel, and silver etch tells a thousand-year-old story.</p>
+</div>
+</section>
+<!-- Filters & Search -->
+<section class="px-margin-mobile md:px-margin-desktop mb-12 sticky top-20 z-40">
+<div class="max-w-container-max mx-auto">
+<div class="glass-card rounded-xl p-4 flex flex-col md:flex-row gap-4 items-center justify-between shadow-sm">
+<!-- Search -->
+<div class="relative w-full md:w-96">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline">search</span>
+<input class="w-full pl-12 pr-4 py-3 bg-surface-container-low border border-outline-variant/30 rounded-xl focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all font-body-md" placeholder="Search artisans or crafts..." type="text"/>
+</div>
+<!-- Chips -->
+<div class="flex gap-2 overflow-x-auto pb-2 md:pb-0 w-full md:w-auto no-scrollbar">
+<button class="bg-primary text-on-primary px-5 py-2 rounded-xl whitespace-nowrap font-label-md text-label-md shadow-md">All Crafts</button>
+<button class="bg-secondary-container text-on-secondary-container px-5 py-2 rounded-xl whitespace-nowrap font-label-md text-label-md hover:bg-secondary-fixed transition-colors">Rug Weaving</button>
+<button class="bg-secondary-container text-on-secondary-container px-5 py-2 rounded-xl whitespace-nowrap font-label-md text-label-md hover:bg-secondary-fixed transition-colors">Pottery</button>
+<button class="bg-secondary-container text-on-secondary-container px-5 py-2 rounded-xl whitespace-nowrap font-label-md text-label-md hover:bg-secondary-fixed transition-colors">Silversmiths</button>
+<button class="bg-secondary-container text-on-secondary-container px-5 py-2 rounded-xl whitespace-nowrap font-label-md text-label-md hover:bg-secondary-fixed transition-colors">Woodwork</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Artisan Grid -->
+<section class="px-margin-mobile md:px-margin-desktop">
+<div class="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Artisan Card 1 -->
+<div class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col border border-outline-variant/10">
+<div class="relative h-72 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDBhbe1NhIMpcQQi8Lkj6COkpTX924e0mTGD2d2mL8pxCHuvPnqsyDt5jWkbiGo8oHx8FiHHhGj-6lyFPkNA-_rQvN7q2hMMeGr_3UUNtZq9IcQCl9SwtBuaN0nTOEYBgQWHD4T-8sjqy40_dqm4zkRVLMi1jig1hDw5hlkE0gsypEbHNnnaydvwg4xbk0M9-Rx1Eemm0AigKEi1LtZ9bAfB5Z3zfr0yR5-04JFCepCyUH1MZIBcXQM')"></div>
+<div class="absolute top-4 left-4">
+<span class="bg-secondary text-on-secondary px-3 py-1 rounded-lg text-label-sm uppercase tracking-wider font-label-md">Heritage Master</span>
+</div>
+</div>
+<div class="p-6 flex-grow flex flex-col">
+<div class="flex justify-between items-start mb-2">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Malika Ait-Ali</h3>
+<div class="flex items-center gap-1 text-outline">
+<span class="material-symbols-outlined text-[18px]">location_on</span>
+<span class="text-label-sm font-body-md">Azilal Village</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<p class="text-on-surface-variant font-body-sm mb-6 line-clamp-2">Specializing in Zanafi weaves using natural plant dyes from the High Atlas slopes.</p>
+<div class="mt-auto space-y-3">
+<div class="flex items-center gap-2">
+<span class="bg-tertiary-fixed text-on-tertiary-fixed px-2 py-1 rounded text-label-sm font-label-md">Rug Weaving</span>
+<span class="bg-tertiary-fixed text-on-tertiary-fixed px-2 py-1 rounded text-label-sm font-label-md">Plant Dyeing</span>
+</div>
+<button class="w-full bg-primary text-on-primary py-3 rounded-xl flex items-center justify-center gap-2 font-label-md text-label-md hover:bg-on-primary-container hover:text-white active:scale-[0.98] transition-all">
+<span class="material-symbols-outlined">chat</span>
+                            Contact via WhatsApp
+                        </button>
+</div>
+</div>
+</div>
+<!-- Artisan Card 2 -->
+<div class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col border border-outline-variant/10">
+<div class="relative h-72 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDBhZY6GtdgzHSMfDc4pANVgKsII2NMOQAoKa3Rkg-rL99YjPjmZY6bndH59Zt3CLPob8NCwZW6z_KMHrYCSP2BlvKSIt5Y5Ie2DMu5CpGXhw2U_kxJ8p08eudK56rLo9NXjcllsmqTM4IHm8hVBnYb37i2I7qukKAzrY9aZgPF2Dnq4TgsT5PFYf0Zrw2gLib9CDeEsPeuFF8hEfn0qtelc0NLMW4TUR8SkGuYHozS8IXrVaWRYA1G')"></div>
+<div class="absolute top-4 left-4">
+<span class="bg-secondary text-on-secondary px-3 py-1 rounded-lg text-label-sm uppercase tracking-wider font-label-md">Tradition Bearer</span>
+</div>
+</div>
+<div class="p-6 flex-grow flex flex-col">
+<div class="flex justify-between items-start mb-2">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Hassan Ouhadi</h3>
+<div class="flex items-center gap-1 text-outline">
+<span class="material-symbols-outlined text-[18px]">location_on</span>
+<span class="text-label-sm font-body-md">Ouaouizeght</span>
+</div>
+</div>
+</div>
+<p class="text-on-surface-variant font-body-sm mb-6 line-clamp-2">Creating ancestral pottery shapes that serve both as high-end decor and functional water cooling vessels.</p>
+<div class="mt-auto space-y-3">
+<div class="flex items-center gap-2">
+<span class="bg-tertiary-fixed text-on-tertiary-fixed px-2 py-1 rounded text-label-sm font-label-md">Pottery</span>
+<span class="bg-tertiary-fixed text-on-tertiary-fixed px-2 py-1 rounded text-label-sm font-label-md">Ceramics</span>
+</div>
+<button class="w-full bg-primary text-on-primary py-3 rounded-xl flex items-center justify-center gap-2 font-label-md text-label-md hover:bg-on-primary-container hover:text-white active:scale-[0.98] transition-all">
+<span class="material-symbols-outlined">chat</span>
+                            Contact via WhatsApp
+                        </button>
+</div>
+</div>
+</div>
+<!-- Artisan Card 3 -->
+<div class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col border border-outline-variant/10">
+<div class="relative h-72 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCXVtrYCfzgkaVpkY28kPS2l1PH2AuxJgGXSsREk4IZit2KaAEJj5m11oiLJov0jB3vPTbOOwhNIQzfdMBXVmyGyg2ahChVx59aZLSLlWwnJVUEzv2yW5vMpRTMslhjg8FmdwrALeWKcOzWTm5fELbd3q9RwIWTT5qExJdLucZ1Sv2lQOaD6zlOyYAS938AdtJEKJ593JX8aAauc0uRAENG0IeiL_x40w9L3RM2gJQbBsaXpHuyi00i')"></div>
+<div class="absolute top-4 left-4">
+<span class="bg-secondary text-on-secondary px-3 py-1 rounded-lg text-label-sm uppercase tracking-wider font-label-md">Master Jeweler</span>
+</div>
+</div>
+<div class="p-6 flex-grow flex flex-col">
+<div class="flex justify-between items-start mb-2">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Yassine El-Fassi</h3>
+<div class="flex items-center gap-1 text-outline">
+<span class="material-symbols-outlined text-[18px]">location_on</span>
+<span class="text-label-sm font-body-md">Khénifra Medina</span>
+</div>
+</div>
+</div>
+<p class="text-on-surface-variant font-body-sm mb-6 line-clamp-2">Specialist in Amazigh silver jewelry, incorporating symbolic motifs passed down through six generations.</p>
+<div class="mt-auto space-y-3">
+<div class="flex items-center gap-2">
+<span class="bg-tertiary-fixed text-on-tertiary-fixed px-2 py-1 rounded text-label-sm font-label-md">Silversmith</span>
+<span class="bg-tertiary-fixed text-on-tertiary-fixed px-2 py-1 rounded text-label-sm font-label-md">Jewelry</span>
+</div>
+<button class="w-full bg-primary text-on-primary py-3 rounded-xl flex items-center justify-center gap-2 font-label-md text-label-md hover:bg-on-primary-container hover:text-white active:scale-[0.98] transition-all">
+<span class="material-symbols-outlined">chat</span>
+                            Contact via WhatsApp
+                        </button>
+</div>
+</div>
+</div>
+<!-- Artisan Card 4 -->
+<div class="group bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col border border-outline-variant/10">
+<div class="relative h-72 overflow-hidden">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBNNOO6I67jLBTAJgqkyc-Pbs3CtLH52ZlDMgFT2WzJaDfMJPJB1HtB9OR0HzUsKR_BWyenTbqt51AHBoPlUHaPnBj7QG1wZhdvKSRH551b_53k24-ZH-d8sOvyhw5AiaD4oRyajqCJjLV_iUTfXfN9rVLGKomQKqtsHhA3w8i5um9wrxGrSiJTGvI4IDDRgikcv5dyFjJRLFmAgWuvcVLqm6sb1EmygoYJvGJg5JwfSq8yq89l29En')"></div>
+<div class="absolute top-4 left-4">
+<span class="bg-secondary text-on-secondary px-3 py-1 rounded-lg text-label-sm uppercase tracking-wider font-label-md">Expert Carver</span>
+</div>
+</div>
+<div class="p-6 flex-grow flex flex-col">
+<div class="flex justify-between items-start mb-2">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Ahmed Boutaleb</h3>
+<div class="flex items-center gap-1 text-outline">
+<span class="material-symbols-outlined text-[18px]">location_on</span>
+<span class="text-label-sm font-body-md">Demnate</span>
+</div>
+</div>
+</div>
+<p class="text-on-surface-variant font-body-sm mb-6 line-clamp-2">Expert in carved cedar furniture and architectural panels using the historic Demnate 'Tatriz' technique.</p>
+<div class="mt-auto space-y-3">
+<div class="flex items-center gap-2">
+<span class="bg-tertiary-fixed text-on-tertiary-fixed px-2 py-1 rounded text-label-sm font-label-md">Woodwork</span>
+<span class="bg-tertiary-fixed text-on-tertiary-fixed px-2 py-1 rounded text-label-sm font-label-md">Carving</span>
+</div>
+<button class="w-full bg-primary text-on-primary py-3 rounded-xl flex items-center justify-center gap-2 font-label-md text-label-md hover:bg-on-primary-container hover:text-white active:scale-[0.98] transition-all">
+<span class="material-symbols-outlined">chat</span>
+                            Contact via WhatsApp
+                        </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="px-margin-mobile md:px-margin-desktop mt-24">
+<div class="max-w-container-max mx-auto bg-primary-container rounded-xl p-8 md:p-16 relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-8">
+<div class="absolute right-0 top-0 w-64 h-64 bg-surface-tint opacity-10 rounded-full -mr-32 -mt-32"></div>
+<div class="z-10 text-center md:text-left">
+<h2 class="font-headline-md text-headline-md text-on-primary-container mb-4">Want to Host a Workshop?</h2>
+<p class="text-on-primary-container/90 max-w-md font-body-lg text-body-lg">Learn the ancient crafts directly from the masters. Many of our artisans offer private immersive sessions in their studios.</p>
+</div>
+<div class="z-10 flex flex-col sm:flex-row gap-4">
+<button class="bg-on-primary-container text-primary-container px-8 py-4 rounded-xl font-label-md text-label-md hover:bg-surface-container-lowest hover:shadow-lg transition-all active:scale-95">Explore Workshops</button>
+<button class="border-2 border-on-primary-container text-on-primary-container px-8 py-4 rounded-xl font-label-md text-label-md hover:bg-white/10 transition-all active:scale-95">Download Guide</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full mt-auto bg-surface-container-low border-t border-outline-variant/30">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center px-margin-mobile md:px-margin-desktop py-12 gap-8 max-w-container-max mx-auto">
+<div class="flex flex-col gap-4">
+<div class="font-headline-sm text-headline-sm text-primary">Tanmiya Explorer</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs">Connecting global travelers with authentic regional craftsmanship in the heart of Morocco.</p>
+</div>
+<div class="flex flex-wrap gap-x-8 gap-y-4">
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-all duration-300" href="#">Heritage Sites</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-all duration-300" href="#">Mountain Trails</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-all duration-300" href="#">Craft Villages</a>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary transition-all duration-300" href="#">Contact Us</a>
+</div>
+<div class="md:text-right flex flex-col gap-2">
+<div class="font-label-sm text-label-sm text-outline">© 2024 Tanmiya Explorer. Smart Tourism for Béni Mellal–Khénifra.</div>
+<div class="flex justify-start md:justify-end gap-4">
+<span class="material-symbols-outlined text-primary cursor-pointer hover:scale-110 transition-transform">language</span>
+<span class="material-symbols-outlined text-primary cursor-pointer hover:scale-110 transition-transform">share</span>
+</div>
+</div>
+</div>
+</footer>
+<script>
+    // Micro-interaction for filter buttons
+    const filterButtons = document.querySelectorAll('button[class*="bg-secondary-container"], button[class*="bg-primary"]');
+    filterButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            filterButtons.forEach(b => {
+                b.classList.remove('bg-primary', 'text-on-primary', 'shadow-md');
+                b.classList.add('bg-secondary-container', 'text-on-secondary-container');
+            });
+            btn.classList.add('bg-primary', 'text-on-primary', 'shadow-md');
+            btn.classList.remove('bg-secondary-container', 'text-on-secondary-container');
+        });
+    });
+
+    // Simple scroll reveal effect
+    const observerOptions = {
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('opacity-100', 'translate-y-0');
+                entry.target.classList.remove('opacity-0', 'translate-y-10');
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.group').forEach(card => {
+        card.classList.add('opacity-0', 'translate-y-10', 'transition-all', 'duration-700');
+        observer.observe(card);
+    });
+</script>
+</body></html>

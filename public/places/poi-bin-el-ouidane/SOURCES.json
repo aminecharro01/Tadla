@@ -1,0 +1,19 @@
+{
+  "poiId": "poi-bin-el-ouidane",
+  "note": "Wikimedia Commons HQ photos for famous places.",
+  "downloadedAt": "2026-07-24T11:21:33.225Z",
+  "files": [
+    {
+      "file": "2.jpg",
+      "commons": "File:Barrage Bin el Ouidane 3.JPG",
+      "bytes": 295998,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Barrage_Bin_el_Ouidane_3.JPG"
+    },
+    {
+      "file": "3.jpg",
+      "commons": "File:Barrage Bin el Ouidane 2.JPG",
+      "bytes": 293451,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Barrage_Bin_el_Ouidane_2.JPG"
+    }
+  ]
+}
