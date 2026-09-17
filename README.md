@@ -1,3 +1,5 @@
+![Tanmiya Explorer preview](docs/mockup.jpg)
+
 # Tanmiya Explorer
 
 Smart tourism platform for the **Béni Mellal–Khénifra** region of Morocco. Tourists explore points of interest on a map, generate AI itineraries, book guide-led trip programs, and contact local artisans. Guides publish multi-day programs and manage bookings.
